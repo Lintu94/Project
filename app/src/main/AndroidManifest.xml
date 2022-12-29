@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApp"
+        tools:targetApi="31">
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+                   android:value="@string/google_map_key"/>
+
+        <activity
+            android:name=".NearbyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.StrokeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.StingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.PoisonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.NoseBleedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.NoBreathActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.FractureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.FeverActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.FaintActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.EpilepsyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.DrowningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.DogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.DiarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.CutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.Choke2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.Choke1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.ChestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.AsthmaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivities.VideosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.BurnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BurningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivities.ShareActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivities.EmergencyActivityCustomePopUp"
+            android:exported="false" />
+        <activity
+            android:name=".NavActivities.ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavActivities.FeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivities.EmergencyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivities.BleedingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

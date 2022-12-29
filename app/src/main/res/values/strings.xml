@@ -1,0 +1,315 @@
+<resources>
+    <string name="app_name">My First</string>
+
+    <string name="Emergency">Emergency</string>
+    <string name="VideoInstruction">Video</string>
+    <string name="EmergencyCall">Emergency Call</string>
+    <string name="NearbyHospital">Nearby Hospital</string>
+    <string name="FirstAidTip">First Aid Tip</string>
+    <string name="share_location">Share Location</string>
+
+    <string name="asthma">Asthma</string>
+    <string name="bleeding">Bleeding</string>
+    <string name="burning">Burning</string>
+    <string name="chest">Chest Pain</string>
+    <string name="chock1">ChokingAdult</string>
+    <string name="chock2">ChokingBaby</string>
+    <string name="cuts">Cuts and bruises</string>
+    <string name="diarr">Diarrhoea</string>
+    <string name="dog">Dog bite</string>
+    <string name="drowning">Drowning</string>
+    <string name="epilepsy">Epilepsy</string>
+    <string name="faint">Faint</string>
+    <string name="fever">Fever</string>
+    <string name="fractures">Fractures</string>
+    <string name="nobreathing">No breathing</string>
+    <string name="nosebleeding">Nose bleeding</string>
+    <string name="poisoning">Poisoning</string>
+    <string name="stings">Stings(bees,wasp)</string>
+    <string name="stroke">Stroke</string>
+
+
+    <string name="select">Select Language</string>
+    <string name="sure">Are you sure you want to Exit?"</string>
+
+
+    <string name="communicate">Communicate</string>
+    <string name="feedback">Feedback</string>
+    <string name="contact_developers">Contact Developers</string>
+    <string name="share_app">Share App</string>
+    <string name="setting">Setting</string>
+    <string name="language">language</string>
+    <string name="system">System</string>
+    <string name="login">login</string>
+    <string name="exit">Exit</string>
+    <string name="first_aid">First Aid</string>
+    <string name="by_undisputed_coder">By Undisputed Coder</string>
+
+    <string name="give_feedback">Give Feedback</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="write">Write Your FeedBack</string>
+    <string name="writ">Write Your Message</string>
+    <string name="writes">Write your preferred developer email here</string>
+    <string name="send">Send</string>
+
+    <string name="lina">Lina Mikail</string>
+    <string name="linEmail">linamikail9416@gmail.com</string>
+    <string name="belay">Belay Zelek</string>
+    <string name="belayEmail">belayzeleke.bz@gmail.com</string>
+    <string name="miki">Mikiyas Melaku</string>
+    <string name="mikiEmail">mikiyasmelaku1998@yahoo.com</string>
+    <string name="arif">Arif Jemal</string>
+    <string name="arifEmail">aaaaaaaaaaaaaaaaa</string>
+    <string name="rose">Tsigereda Daniel</string>
+    <string name="roseEmail">rose.mlhffgj</string>
+    <string name="ask">Contact your preferred developer below</string>
+    <string name="check">check</string>
+
+
+    <string-array name="Emergency_Names">
+        <item>@string/asthma</item>
+        <item>@string/bleeding</item>
+        <item>@string/burning</item>
+        <item>@string/chest</item>
+        <item>@string/chock1</item>
+        <item>@string/chock2</item>
+        <item>@string/cuts</item>
+        <item>@string/diarr</item>
+        <item>@string/dog</item>
+        <item>@string/drowning</item>
+        <item>@string/epilepsy</item>
+        <item>@string/faint</item>
+        <item>@string/fever</item>
+        <item>@string/fractures</item>
+        <item>@string/nobreathing</item>
+        <item>@string/nosebleeding</item>
+        <item>@string/poisoning</item>
+        <item>@string/stings</item>
+        <item>@string/stroke</item>
+    </string-array>
+
+    <string name="watch">Tap the video to watch the steps</string>
+
+
+    <string name="asthmsS1">1.	Stay calm and reassure the patient</string>
+    <string name="asthmsS2">2. Let the person take the position he finds most comfortable</string>
+    <string name="asthmsS3">3.	If the person takes inhaler puffs support him taking his puffs</string>
+    <string name="asthmsS4">4.	Ensure fresh air by opening the window</string>
+    <string name="asthmsS5">5.	Assist loosening any tight clothing</string>
+    <string name="asthmsS6">6.	If the person loss consciousness makes sure the air way stays open</string>
+    <string name="asthmsS7">7.	Stay with the person and continue to observe him</string>
+    <string name="asthmsS8">8.	Always refer the person to health care centre for future follow up</string>
+    <string name="asthmsS9">9.	Always wash your hand after giving care</string>
+
+
+    <string name="bleedingS1">1, Make sure the area is safe</string>
+    <string name="bleedingS2">2, Shout or call for help</string>
+    <string name="bleedingS3">3, Use glove or cover with your hands with a plastic bag</string>
+    <string name="bleedingS4">4, Ask the person to sit or lay down on the floor</string>
+    <string name="bleedingS5">5, Stop bleeding by pressing with both hands on the wound</string>
+    <string name="bleedingS6">6, If the bleeding has stopped,cover with a clean cotton cloth</string>
+    <string name="bleedingS7">7, Wrap a bandage around the wound</string>
+    <string name="bleedingS8">8, Always wash your hand after giving care </string>
+
+    <string name="burnS1">1. Make sure the area is safe </string>
+    <string name="burnS2">2. Call for help</string>
+    <string name="burnS3">3. If the person cloths are on fire stop the fire</string>
+    <string name="burnS4">4. Douse the fire</string>
+    <string name="burnS5">5. Wrap a blanket</string>
+    <string name="burnS6">6. Ask the victim to roll over</string>
+    <string name="burnS7">7. Cool the burn with running water for minimum 10 – 15 minutes</string>
+    <string name="burnS8">8. Do not tear a blister and do not apply any ointment</string>
+    <string name="burnS9">9. Cover the wound with a clean cotton cloth</string>
+    <string name="burnS10">10. Keep the victim warm</string>
+    <string name="burnS11">11. Transport the victim to the nearest healthcare centre</string>
+    <string name="burnS12">12. Always wash your hand after giving care</string>
+
+
+    <string name="chestS1">1. Make sure the area is safe</string>
+    <string name="chestS2">2. Shout or call help</string>
+    <string name="chestS3">3. Ask the person to rest and not move</string>
+    <string name="chestS4">4. Ask the person to sit down in a comfortable position at a safe location nearby</string>
+    <string name="chestS5">5. Reassure the person and tell him what is happening</string>
+    <string name="chestS6">6. Ask the person if he takes medication for his heart condition. If also allow him to take the prescribed medication</string>
+    <string name="chestS7">7. If there is aspirin available ask if he has any known bleeding disorder or any condition that contradict the usage of aspirin, if none ask the person to chew on an aspirin tablet and swallow it as it will help the blood flow to the heart.</string>
+    <string name="chestS8">8. Arrange the transport to the nearest healthcare facility</string>
+    <string name="chestS9">8. Arrange the transport to the nearest healthcare facility</string>
+
+
+    <string name="choke1S1">1. Ask the person ‘’are you choking’’</string>
+    <string name="choke1S2">2. If the person answers the question do not do anything else but stay with him and encourage to cough</string>
+    <string name="choke1S3">3. If the person can not speak cough or breath go and stand behind the person</string>
+    <string name="choke1S4">4. Support the person chest with one hand</string>
+    <string name="choke1S5">5. Bend the person forward</string>
+    <string name="choke1S6">6. Give five firms blows between the persons shoulder blades with the help of your hand</string>
+    <string name="choke1S7">7. If the object did not come out stand behind the person</string>
+    <string name="choke1S8">8. Put both arms around the person so your hands meet in front. Make a first place your fist between the person navels and lower tip of his breastbone</string>
+    <string name="choke1S9">9. Bend the person forward</string>
+    <string name="choke1S10">10. Give five abdominal thrusts by pulling your fist inwards and up wards</string>
+    <string name="choke1S11">11. If the object still did not come out then repeat giving five blows and five abdominal thrusts till the object comes outs</string>
+    <string name="choke1S12">12. If the person gets unconscious shout or call for help, lay the person on the floor and start giving CPR</string>
+    <string name="choke1S13">13. Always transport the person to a healthcare for follow up</string>
+    <string name="choke1S14">14. Always wash your hands after giving care</string>
+
+
+    <string name="choke2S1">1. Shout or call help the baby need urgent help</string>
+    <string name="choke2S2">2. Kneel down on the floor and use your tights to prevent from falling</string>
+    <string name="choke2S3">3. Lay the baby face down on your forearm support the head and neck but make sure the mouth is not covered</string>
+    <string name="choke2S4">4. With your free hand give five blows with the palm of your free hands between the baby shoulder</string>
+    <string name="choke2S5">5. Quickly turn the baby and check if the object came out</string>
+    <string name="choke2S6">6. If the object did n’t come out then place two fingers (do not use your thumbs) in the middle of the baby chest</string>
+    <string name="choke2S7">7. Deliver five thrust by pushing inwards and upwards</string>
+    <string name="choke2S8">8. If the object still did n’t come out then repeat giving five blows and five abdominal thrusts till the object comes outs</string>
+    <string name="choke2S9">9. If the baby is unconscious start giving CPR</string>
+    <string name="choke2S10">10. Always urgent transport the baby to a healthcare centre for follow up</string>
+    <string name="choke2S11">11. Always wash your hands after giving care</string>
+
+
+    <string name="cutS1">1. wash your hands before giving care</string>
+    <string name="cutS2">2.	put on glove if available. You also can use a clean plastic bag to cover your hand</string>
+    <string name="cutS3">3.	stop the bleeding by pressing directly on the wound till the bleeding stops</string>
+    <string name="cutS4">4.	when the bleeding stop rinse the wound with the clean water, if the wound still bleeds do not waste a time to clean the wound but continue to put pressure on the wound to stop the bleeding</string>
+    <string name="cutS5">5.	if you have clean cotton or cloth cover the wound with it</string>
+    <string name="cutS6">6.	apply the bandage do not apply firmly</string>
+    <string name="cutS7">7.	tell the person to keep the wound clean and dry. The dressing should be changed every two or three days</string>
+    <string name="cutS8">8.	advice the person to seek medical help if the pain worsen there is swelling or redness the wound shows discharge, he feels unwell or fever</string>
+    <string name="cutS9">9.	Always wash your hands after giving care</string>
+
+
+    <string name="diarS1">1. wash your hands before giving care</string>
+    <string name="diarS2">2. try not to come into contact with the persons stool or vomit. Use glove if available. Else you can use clean plastic bag to cover your hand</string>
+    <string name="diarS3">3. prevent dehydration by giving plenty of fluids to the sick person</string>
+    <string name="diarS4">4. children under two years should drink quarter and half of a large cup (50 – 100 ml) after each loose stool</string>
+    <string name="diarS5">5. children between two to ten years should drink half to full cups (100 – 200 ml) after each loose stool</string>
+    <string name="diarS6">6. children above ten years and adults should drink (200 ml) after each loose stool</string>
+    <string name="diarS7">7. advice the sick person to drink ORS (oral rehydration solution) which is available at chemist and government healthcare facilities</string>
+    <string name="diarS8">8. you may give the sick person curd or rice water if available</string>
+    <string name="diarS9">9. the sick person also may eat light food</string>
+    <string name="diarS10">10. check regularly on the sick person (during day and night) and sick medical help if the condition worsens</string>
+    <string name="diarS11"> 11.	advice the person to seek immediate medical help if the diarrhoea does not get better within two days there is bloodin the stool: he has fever he is developing signs of dehydration (dry mouth, sunken eyes crying without tears)he can’t drink; he vomits frequently or he has fits</string>
+    <string name="diarS12">12.	Always wash your hands after giving care</string>
+
+
+    <string name="dogS1">1. Make sure the area is safe</string>
+    <string name="dogS2">2.	Ensure the dog can’t bite you</string>
+    <string name="dogS3">3.	Wash your hand is it possible</string>
+    <string name="dogS4">4.	Try to avoid in coming contact with the person’s blood. Use glove if available or you can use clean plastic bag to cover your hand</string>
+    <string name="dogS5">5.	Flush the bite wound immediately with clean water for 10 – 15 minutes. Wash the wound with water with detergent if available.</string>
+    <string name="dogS6">6.	In case of bleeding stop the bleeding by putting direct pressure</string>
+    <string name="dogS7">7.	Cover the wound with clean cotton cloth</string>
+    <string name="dogS8">8.	Always refer the person healthcare centre for further treatment</string>
+    <string name="dogS9">9.	Always wash your hands after giving care</string>
+
+    <string name="drownS1">1. Make sure you are not in danger of drowning</string>
+    <string name="drownS2">2. Shout or call help</string>
+    <string name="drownS3">3. Try to throw a rope or something to the person which he can hold onto</string>
+    <string name="drownS4">4. Remove the victim out of the water but don’t put your self in danger by doing so</string>
+    <string name="drownS5">5. On rescued do not try to get the water out of the victim lungs</string>
+    <string name="drownS6">6. If the persons breaths put him in recovery position</string>
+    <string name="drownS7">7. If the persons do not breaths start giving CPR immediately</string>
+    <string name="drownS8">8. Always refer the person healthcare centre for further treatment</string>
+    <string name="drownS9">9. Always wash your hands after giving care</string>
+
+    <string name="epilS1">1. Make sure the area is safe</string>
+    <string name="epilS2">2. Remove any object that could hurt the person</string>
+    <string name="epilS3">3. Reassure the bystander</string>
+    <string name="epilS4">4. Do not hold the person down or restrained</string>
+    <string name="epilS5">5. If possible, put something soft under the head</string>
+    <string name="epilS6">6. Make sure the person can breathe freely by loosening tight clothing</string>
+    <string name="epilS7">7. Do not put your finger in the person mouth</string>
+    <string name="epilS8">8. Do not put a wooden stick or anything else in the person mouth</string>
+    <string name="epilS9">9. Put the persons in recovery condition when the attack stop</string>
+    <string name="epilS10">10. Stay with the person until he stays in better condition</string>
+    <string name="epilS11">11. Do not give anything to eat and drink</string>
+    <string name="epilS12">12. Always refer the person healthcare centre for further treatment</string>
+    <string name="epilS13">13.	Always wash your hands after giving care</string>
+
+    <string name="faintS1">1. Make sure the area is safe</string>
+    <string name="faintS2">2. Put the person on the floor</string>
+    <string name="faintS3">3. In most case of fainting the person will recover quickly</string>
+    <string name="faintS4">4. Talk loudly to the person. Tap him on the shoulder</string>
+    <string name="faintS5">5. Check if the person responds to simple questions (what is your name, where do live)</string>
+    <string name="faintS6">6. If the person respond ask what happened. Allow the person to la down or sit in a comfortable position to recover. advice the person to recover.</string>
+    <string name="faintS7">7. If the person does not respond try to not to change the position of the person there might be injuries to the head, neck or back</string>
+    <string name="faintS8">8. The unconsciousness persons need urgent need so call to healthcare</string>
+    <string name="faintS9">9. Check if the person is breathing by listening looking and feeling</string>
+    <string name="faintS10">10. If the person not breathing start CPR. If his breathing put him in recovery position keep observing him and arrange urgent transport to healthcare</string>
+    <string name="faintS11">11.	Always wash your hands after giving care</string>
+
+    <string name="feverS1">1. wash your hands before giving care</string>
+    <string name="feverS2">2. find out how high is the temperature of the person is by measuring it or by feeling</string>
+    <string name="feverS3">3. ask the person to rest</string>
+    <string name="feverS4">4. move the person to cool environment</string>
+    <string name="feverS5">5. give the person a lot of water to drink to prevent dehydration</string>
+    <string name="feverS6">6. evaluate how the person is dressed. Too much can increase the temperature; to less can cause shivering</string>
+    <string name="feverS7">7. eventually you can sponge the sick person with room temperature water, except if does not like it or starts shivering</string>
+    <string name="feverS8">8. keep checking on the patient during day and night time</string>
+    <string name="feverS9">9. bring the sick person to nearby healthcare facilities if fever remain or the person condition worsen</string>
+    <string name="feverS10">10.	Always wash your hands after giving care</string>
+
+    <string name="fractureS1">1. Make sure the area is safe</string>
+    <string name="fractureS2">2. Shout or call help</string>
+    <string name="fractureS3">3. Try to avoid to come in contact with the person blood. If you have glove you can putthem on. Else you can use clean plastic bag to cover your hand</string>
+    <string name="fractureS4">4. Reassure the causality</string>
+    <string name="fractureS5">5. Advise the person to stay calm and not to move</string>
+    <string name="fractureS6">6. Try to not move the fractured or disorder limb</string>
+    <string name="fractureS7">7. Try to not move the causality till the injured part has been secured</string>
+    <string name="fractureS8">8. If there is bleeding, stop the bleeding by putting direct pressure on the wound</string>
+    <string name="fractureS9">9. Cover the wound after the clean cotton cloth</string>
+    <string name="fractureS10">10. Suggest the causality to support the injured part (broken arm) himself, ask a bystander to do so</string>
+    <string name="fractureS11">11. Immobiliser the injured part with a bandage try not to move the injured part whilst doing so</string>
+    <string name="fractureS12">12. If you are trend in h0w to splint, you can immobilize the fractured limb with a splint</string>
+    <string name="fractureS13">13.	Do not give the person anything to drink or eat</string>
+    <string name="fractureS14">14.	Arrange appropriate transport nearby hospital</string>
+
+    <string name="breathS1">1. Make sure the area is safe</string>
+    <string name="breathS2">2. Shout or call help</string>
+    <string name="breathS3">3. Remove any cause of suffocation but do not put your self in to danger doing so</string>
+    <string name="breathS4">4. Check if the person is breathing by looking listening and feeling</string>
+    <string name="breathS5">5. If he is not breathing turn or put the person on his back on the floor. Kneel down by the side of the person and start CPR</string>
+    <string name="breathS6">6. Continue to give CPR till the person starts breathing; trained help arrive and takes over; you become too exhausted to continue or the area become unsafe to continue.</string>
+    <string name="breathS7">7. If the person starts breathing again provide first aid (stop bleeding) keep him warm arranging urgent transport to healthcare if he stops breathing start CPR.</string>
+    <string name="breathS8">8. Always wash your hands after giving care</string>
+
+    <string name="noseS1">1. Ask the person to pinch his nose above the nostril with his index finger and thumb. Tell him to breath through the mouth. Ask him to lean forward</string>
+    <string name="noseS2">2. If they cannot pinch himself. You can pinch the nose use glove or plastic bag to cover your hand</string>
+    <string name="noseS3">3. Continue pinch for 10 to 15 minutes normally the nosebleed will stop</string>
+    <string name="noseS4">4. Is there is still blood coming after 20 minutes or the bleeding was caused by a punch to the nose or head; or by fall or accident if the bleeding is heavy the person takes blood thinning medication or the person become pale,sleepy or unconscious; seek urgent medical help</string>
+    <string name="noseS5">5. Always wash your hands after giving care</string>
+
+    <string name="poisonS1">1. First secure your own safety only thereafter, secure the safety of affected person</string>
+    <string name="poisonS2">2. Shout or call help</string>
+    <string name="poisonS3">3. Cover your hand use glove or plastic bag</string>
+    <string name="poisonS4">4.	If possible, find out what poison has been swallowed,injected, inhaled or came into contact with the person’s skin. However, do not put yourself in to any danger. Avoid contact with the poison.</string>
+    <string name="poisonS5">5.	Call the anti-poison centre or nearby hospital, healthcare centre or medical caregiver for advice. Do not give anything to eat or drink without their advice. Do not give milk or water unless they ask you to do so.</string>
+    <string name="poisonS6">6. If the poison is swallowed and the person is conscious and breathing.Ask him to lay down on his left side keep on observing him.</string>
+    <string name="poisonS7">7. In the case of external contact with dry chemicals or powder, brush them away and then rinse with water.</string>
+    <string name="poisonS8">8. Arrange appropriate transport nearby hospital</string>
+    <string name="poisonS9">9. Always wash your hands after giving care</string>
+
+    <string name="stingS1">1. Make sure the area is safe</string>
+    <string name="stingS2">2. If you are in the area where the wasp’s hornet or bees are around walk with the victim calmly away to a safer area. If attacked by swarm, run away as a fast as possible and seek shelter (indoor, in a car)</string>
+    <string name="stingS3">3. Use your finger nail to remove the sting of the bee</string>
+    <string name="stingS4">4. Eventually wash the sting bite site with water</string>
+    <string name="stingS5">5. Do not try to suck out the venom. Do not put herbs on the wound</string>
+    <string name="stingS6">6.If you have ice available you may use it to cool; wrap the ice in a cloth so the ice does not touch the skin directly do not apply longer than 20 minutes</string>
+    <string name="stingS7">7.Observe the person. Ask about their known allergies’ reaction. This can become quickly a life treating situation and immediately medical help is required</string>
+    <string name="stingS8">8. Always wash your hands after giving care</string>
+
+
+    <string name="strokeS1">1. Ask the person to smile or show his teeth check if the mouth is crooked or drooping at one corner</string>
+    <string name="strokeS2">2. Ask the person to lift both arms, check whether both arms move up the same or one is drooping or drifting</string>
+    <string name="strokeS3">3. Ask the person what happened. Check if he can speak clearly or he has problem in finding his words</string>
+    <string name="strokeS4">4. A stroke is very likely when the persons have issues with any of the above actions</string>
+    <string name="strokeS5">5. Let the person sit upright, if not possible, put him in the very recovery position</string>
+    <string name="strokeS6">6. Ask the person to stay calm</string>
+    <string name="strokeS7">7. Do not give anything to eat or drink</string>
+    <string name="strokeS8">8. Arrange appropriate transport nearby hospital</string>
+    <string name="strokeS9">9. Always wash your hands after giving care</string>
+
+<!--    <string name="google_map_key">AIzaSyAejNAM36dyg58HFm-mw_zsAzIPh_RbrpI</string>-->
+
+    <string name="google_map_key">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+
+
+</resources>

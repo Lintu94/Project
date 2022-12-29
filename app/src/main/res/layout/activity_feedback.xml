@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavActivities.FeedbackActivity">
+
+
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="15dp"
+            android:background="@drawable/bg">
+
+            <ImageView
+                android:id="@+id/imgback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:clickable="true"
+                android:layout_marginTop="17dp"
+                android:layout_marginStart="10dp"
+                android:focusable="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/give_feedback"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_toEndOf="@+id/imgback"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <ImageView
+                android:id="@+id/imFed"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="110dp"
+                android:src="@drawable/ic_baseline_feedback"
+                android:layout_centerHorizontal="true"
+                />
+
+            <EditText
+                android:id="@+id/edt1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/imFed"
+                android:hint="@string/enter_your_name"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:background="@drawable/rounded_corn"
+
+                />
+            <EditText
+                android:id="@+id/edt2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/edt1"
+                android:hint="@string/write"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:background="@drawable/rounded_corn"
+                android:layout_marginTop="20dp"
+                android:inputType="textMultiLine"
+                android:gravity="top"
+                android:overScrollMode="always"
+                />
+
+
+            <Button
+                android:id="@+id/sendBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/edt2"
+                android:layout_marginTop="20dp"
+                android:text="@string/send"
+                android:textSize="20sp"
+                android:background="@drawable/rounded_corner"
+                android:textColor="#750101"
+                android:textStyle="bold"
+                />
+
+
+
+
+        </RelativeLayout>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

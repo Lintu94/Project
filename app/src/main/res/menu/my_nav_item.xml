@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item   android:title="@string/communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="@string/feedback"
+                    android:id="@+id/feed_nav"
+                    android:icon="@drawable/ic_baseline_feedback_24"
+                    />
+
+                <item
+                    android:title="@string/contact_developers"
+                    android:id="@+id/cont_nav"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    />
+                <item
+                    android:title="@string/share_app"
+                    android:id="@+id/shr"
+                    android:icon="@drawable/ic_baseline_share_24"/>
+            </group>
+        </menu>
+    </item>
+
+
+
+    <item   android:title="@string/setting">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:title="@string/language"
+                android:id="@+id/lang_nav"
+                android:icon="@drawable/ic_baseline_language_24"
+                />
+            </group>
+        </menu>
+    </item>
+
+    <item   android:title="@string/system">
+        <menu>
+            <group android:checkableBehavior="single">
+              <item
+                  android:title="@string/exit"
+                  android:id="@+id/ext"
+                  android:icon="@drawable/ic_exit"/>
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>

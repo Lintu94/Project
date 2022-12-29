@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">የመጀመሪያ እርዳታ</string>
+
+
+    <string name="Emergency">ድንገተኛ አደጋ</string>
+    <string name="VideoInstruction">ቪዲዮ</string>
+    <string name="EmergencyCall">የአደጋጊዜ ጥሪ</string>
+    <string name="NearbyHospital">ቅርብ ሆስፒታል</string>
+    <string name="FirstAidTip">ጠቃሚ ምክር</string>
+    <string name="share_location">ቦታህን አጋራ</string>
+
+    <string name="asthma">አስም</string>
+    <string name="bleeding">የደም መፍሰስ</string>
+    <string name="burning">መቃጠል</string>
+    <string name="chest">የደረት ህመም</string>
+    <string name="chock1">መታነቅ</string>
+    <string name="chock2">መታነቅ ለህፃናት</string>
+    <string name="cuts">መቆረጥ</string>
+    <string name="diarr">ተቅማጥ</string>
+    <string name="dog">የውሻ ንክሻ</string>
+    <string name="drowning">መስመጥ</string>
+    <string name="epilepsy">የሚጥል በሽታ</string>
+    <string name="faint">እራስን መሳት</string>
+    <string name="fever">ትኩሳት</string>
+    <string name="fractures">ስብራት</string>
+    <string name="nobreathing">አለመተንፈስ</string>
+    <string name="nosebleeding">የ አፍንጫ መድማት</string>
+    <string name="poisoning">መመረዝ</string>
+    <string name="stings">መነደፍ(በ ጉንዳን…)</string>
+    <string name="stroke">የአእምሮ ጥቃት</string>
+
+
+
+    <string name="select">ቋንቋ ይምረጡ</string>
+    <string name="sure">እርግጠኛ ነህ መውጣት ትፈልጋለህ?</string>
+
+
+
+    <string name="communicate">ተገናኝ</string>
+    <string name="feedback">አስተያየትዎን</string>
+    <string name="contact_developers">ገንቢዎችን ያግኙ</string>
+    <string name="share_app">መተግበሪያ አጋራ</string>
+    <string name="setting">ማቀናበር</string>
+    <string name="language">ቋንቋ</string>
+    <string name="system">ስርዓት</string>
+    <string name="login">ግባ</string>
+    <string name="exit">ውጣ</string>
+    <string name="first_aid">የመጀመሪያ እርዳታ</string>
+    <string name="by_undisputed_coder">በ አንዲስፒውትድ ኮደር</string>
+
+
+    <string name="give_feedback">አስተያየት ይስጡ</string>
+    <string name="enter_your_name">ስምህን አስገባ</string>
+    <string name="write">አስተያየትዎን ይፃፉ</string>
+    <string name="writ">መልዕክትዎን ይፃፉ</string>
+
+    <string name="send">ላክ</string>
+
+    <string name="lina">ሊና ሚካኢል</string>
+    <string name="linEmail">linamikail9416@gmail.com</string>
+    <string name="belay">በላይ ዘለቀ</string>
+    <string name="belayEmail">bbbbbbb</string>
+    <string name="miki">ሚኪያስ መላኩ</string>
+    <string name="mikiEmail">mmmmmmmmm</string>
+    <string name="arif">አሪፍ ጀማል</string>
+    <string name="arifEmail">aaaaaaaaaaaaaaaaa</string>
+    <string name="rose">ጽጌሬዳ ዳንኤል</string>
+    <string name="roseEmail">jjjjjjjjjjj njjjjj uyuyt</string>
+    <string name="ask">ገንቢዎችን ማነጋገር ይፈልጋሉ? መልእክትዎን ከታች ይጻፍ</string>
+    <string name="check">አረጋግጥ</string>
+
+    <string name="watch">ደረጃዎቹን ተግባራዊ ለማድረግ ቪዲዮውን ይመልከቱ</string>
+
+
+    <string name="asthmsS1" >1.	በሽተኛውን እንዲረጋጋ ማድረግ ይኖርብናል</string>
+    <string name="asthmsS2" >2.	ግለሰቡ በጣም ምቹ ሆኖ ያገኘውን ቦታ እንዲያገኝ ማድረግ አለብን</string>
+    <string name="asthmsS3" >3.	ግለሰቡ በሰው ስራሽ ኦክስጅን የሚተነፍስ ከሆነ እሱን እንዲያገኝ መርዳት አለብን</string>
+    <string name="asthmsS4" >4.	መስኮቱን በመክፈት ንጹሕ አየር እንዲኖር ማድረግ</string>
+    <string name="asthmsS5" >5.	ማንኛውንም የሚያጣብቅ ልብስ እንዲያወልቅ መርዳት</string>
+    <string name="asthmsS6" >6.	ግለሰቡ ራሱን ከሳተ ንፁህ አየር እንዲኖር ማድረግ ያስፈልጋል</string>
+    <string name="asthmsS7" >7.	ከግለሰቡ ጋር ቆይቶ በቅርብ መከታተል</string>
+    <string name="asthmsS8" >8.	ግለሰቡን ለበለጠ ምርመራ ወደ ጤና ማእከል እንዲሄድ ማድረግ አለብን</string>
+    <string name="asthmsS9" >9.	እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="bleedingS1">1. አካባቢው ደህንነቱ የተጠበቀ መሆኑን ያረጋግጡ</string>
+    <string name="bleedingS2">2. እርዳታ ጥሪ መደወል ያስፈልጋል</string>
+    <string name="bleedingS3">3. ጓንት መጠቀም ወይም እጅህን በፕላስቲክ ከረጢት መሸፈን</string>
+    <string name="bleedingS4">4. ግለሰቡን ቀስ ብሎ መሬት ላይ እንዲተኛ ማድረግ</string>
+    <string name="bleedingS5">5. በሁለቱም እጆቹ ቁስሉ ላይ በመጫን የደም መፍሰሱን አቁሙ። ቢቻል ግለሰቡ ቁስሉ ላይ እራሱን መጫን ይችላል</string>
+    <string name="bleedingS6">6. ደሙ  መፍሰስ ከቆመ በንፁህ የጥጥ ጨርቅ መሸፈኑን</string>
+    <string name="bleedingS7">7. በቁስሉ ዙሪያ ፋሻ መጠቅለል</string>
+    <string name="bleedingS8">9. እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="burnS1">1. አካባቢው ደህንነቱ የተጠበቀ መሆኑን ያረጋግጡ</string>
+    <string name="burnS2">2. እርዳታ ለማግኘት ይደውሉ</string>
+    <string name="burnS3">3. የግለሰቡ ጨርቆች በእሳት ከተቃጠለ  እሳቱን ያስቁሙ</string>
+    <string name="burnS4">4. እሳቱን ማጥፋት</string>
+    <string name="burnS5">5. ግለሰቡን በእርጥብ ብርድ ልብስ መጠቅለል</string>
+    <string name="burnS6">6. ጉዳት የደረሰበት ሰው እንዲንከባለል ማደረግ</string>
+    <string name="burnS7">7. በቧንቧ ውሃ በትንሹ ከ 10 – 15 ደቂቃ ውስጥ እሳቱን ቀዝቀዝ</string>
+    <string name="burnS8">8. የቅባት ንጣፍ አትቅረቡ፤ ምንም ዓይነት ቅባትም አትጠቀሙ</string>
+    <string name="burnS9">9. ቁስሉን በንጹህ ጥጥ ጨርቅ ይሸፍኑት</string>
+    <string name="burnS10">10. ጉዳት የደረሰበት ሰው እንዲሞቅ አድርግ</string>
+    <string name="burnS11">11. ጉዳት የደረሰበት ሰው በአቅራቢያው ወደሚገኝ የጤና ማዕከል አጓጉዝ</string>
+    <string name="burnS12">12. እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+
+    <string name="chestS1">1. አካባቢው ደህንነቱ የተጠበቀ መሆኑን ያረጋግጡ</string>
+    <string name="chestS2">2. እርዳታ ለማግኘት ይደውሉ</string>
+    <string name="chestS3">3. ግለሰቡ እንዲያርፍና እንዳይንቀሳቀስ ማድረግ</string>
+    <string name="chestS4">4. ግለሰቡ በአቅራቢያው በሚገኝ አስተማማኝ ቦታ ምቹ በሆነ ቦታ ላይ እንዲቀመጥ ማድረግ</string>
+    <string name="chestS5">5. ግለሰቡን አረጋግቶ ምን እየሆነ እንዳለ ንገረው</string>
+    <string name="chestS6">6. ግለሰቡ ለልቡ ሕመም መድኃኒት ይወስድ እንደሆነ ጠይቁት ። የታዘዘውን መድሃኒት እንዲወስድም ማድረግ</string>
+    <string name="chestS7">7. አስፕሪን ካለ ከአስፕሪን አጠቃቀም ጋር የሚጋጭ የታወቀ የደም መፍሰስ ችግር ወይም ማንኛውም ዓይነት የጤና እክል እንዳለበት ጠይቀው። ግለሰቡ አስፕሪን በታብሌት ላይ ማኘክና ደም ወደ ልብ እንዲፈስ ስለሚረዳው እንዲውጠው ማድረግ።</string>
+    <string name="chestS8">8. መጓጓዣውን በአቅራቢያህ ወዳለው የጤና ተቋም አዘጋጅ</string>
+    <string name="chestS9">9. እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="choke1S1">1.ግለሰቡን ታንቀህ ነው ብለህ ጠይቅ</string>
+    <string name="choke1S2">2. ግለሰቡ ለጥያቄው መልስ ከሰጠ ከሱ ጋር ቆይታ ማድረግ እንዲያስል ከማበረታታት በቀር ሌላ ነገር አታድርግ</string>
+    <string name="choke1S3">3. ሰውየው ሳል ወይም ትንፋሽ ወይም መናገር ካልቻለ ሄዶ ከሰውየው ጀርባ መቆም ያስፈልጋል</string>
+    <string name="choke1S4">4. በአንድ እጅ ደረቱን ደግፍ</string>
+    <string name="choke1S5">5. ግለሰቡን ወደፊት አጎንብሰው</string>
+    <string name="choke1S6">6. በእጅዎ እገዛ በገለሰቡ ትከሻ መካከል ጠበቅ አድርጎ መያዝ</string>
+    <string name="choke1S7">7. ባዕዱ ነገር ካልወጣ ከግለሰቡ ጀርባ መቆም</string>
+    <string name="choke1S8">8. እጆቻችሁ ከፊት እንዲሰበሰቡ ሁለቱንም እጆቻችሁን አዙሩ ። በሰውየው እምብርትና በጡት አጥንቱ ታችኛ ጫፍ መካከል አድርግ</string>
+    <string name="choke1S9">9.	ግለሰቡን ወደፊት አጎንብሰው ጠበቅ አድርጎ መያዝ</string>
+    <string name="choke1S10">10. ገለሰቡን ወደ ውስጥና ወደ ላይ መግፋት</string>
+    <string name="choke1S11">11. ባዕዱ ነገር  ገና ያልወጣ ከሆነ  እስኪወጣ ድረስ የሆድ ዕቃችን አካባቢ ያሉ ክፍሎችን ደጋግመህ መግፋት</string>
+    <string name="choke1S12">12. ግለሰቡ ራሱን ከሳተ እርዳታ ለማግኘት መደወል ግለሰቡን መሬት ላይ አኑርና ሲፒ አር መስጠት ጀምር</string>
+    <string name="choke1S13">13. ሁሌም ግለሰቡን ለመከታተል ወደ ጤና ጥበቃ ቦታ ማጓጓዝ</string>
+    <string name="choke1S14">14. እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="choke2S1">1. ስልክ ደውለህ ሕፃኑ አጣዳፊ እርዳታ እንዲያገኝ ማድረግ</string>
+    <string name="choke2S2">2. ወለሉ ላይ ተንበርክከው እንዳይወድቁ መከላከል ያስፈልጋል</string>
+    <string name="choke2S3">3. ሕፃኑን ፊት ለፊት በክንድህ ላይ አድርግ ፤ ሆኖም ጭንቅላቱንና አንገቱን ደግፈህ አፉ እንዳይሸፈን አድርግ</string>
+    <string name="choke2S4">4. በነጻ እጅዎ በህጻኑ ትከሻ መካከል በነጻ እጆችዎ መዳፍ አምስት ዱላዎች ይሰጣሉ</string>
+    <string name="choke2S5">5. ቶሎ ሕፃኑን አዙረህ ባዕዱ ነገር   መውጣቱን አረጋግጥ</string>
+    <string name="choke2S6">6. ባዕዱ ነገር ካልወጣ ሁለት ጣቶች (አውራ ጣትዎን አይጠቀሙ) በህጻን ደረት መሀል አስቀምጥ</string>
+    <string name="choke2S7">7. ወደ ውስጥና ወደ ላይ በመግፋት ግፊት ማድረስ</string>
+    <string name="choke2S8">8. ባዕዱ ነገር  ገና ያልወጣ ከሆነ እስኪወጣ ድረስ የሆድ ዕቃችን አካባቢ ያሉ ክፍሎችን ደጋግመህ መግፋት</string>
+    <string name="choke2S9">9. ሕፃኑ ራሱን ከሳተ ሲፒ አር መስጠት ጀምር</string>
+    <string name="choke2S10">10. ሁሌም ህጻኑን የበለጠ ለመከታተል ወደ ጤና ማእከል በአስቸኳይ መውሰድ</string>
+    <string name="choke2S11">11. እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="cutS1">1.	እንክብካቤ ከማድረግህ በፊት እጅህን ታጠብ</string>
+    <string name="cutS2">2.	ካለ የእጅ ጓንት አድርግ ከሌለ እጅህን ለመሸፈን ንጹሕ የፕላስቲክ ቦርሳ መጠቀም ትችላለህ</string>
+    <string name="cutS3">3.	የደም መፍሰሱ እስኪቆም ድረስ በቁስሉ ላይ በቀጥታ በመጫን የደም መፍሰሱን አቁሙ</string>
+    <string name="cutS4">4.	የፈሰሰው ደም ከቆመ ቁስሉን በንፁህ ውሃ ማጠብ፣ ቁስሉ አሁንም ቢሆን ቁስሉን ለማጽዳት ጊዜ ከማባከን ይልቅ የደም መፍሰሱን ለማስቆም ቁስሉ ላይ ግፊት ማድረጉን መቀጠል</string>
+    <string name="cutS5">5.	ንጹህ ጥጥ ወይም ጨርቅ ካለዎት ቁስሉን መሸፈን</string>
+    <string name="cutS6">6.	ፋሻው በጥብቅ ማሰር</string>
+    <string name="cutS7">7.	ግለሰቡ ቁስሉ ንጹህና ደረቅ እንዲሆን ንገረው። አለባበሱ በየሁለት ወይም በሶስት ቀኑ መቀየር አለበት</string>
+    <string name="cutS8">8.	ግለሰቡ የህክምና እርዳታ እንዲፈልግ ምክር መሰጠት ጉዳት ያገኘው ቦታ ማብጠጥ ወይም ቀይነት ቁስሉ መፍሰስን የሚያሳይ ከሆነ፣ የጤና እክል ወይም ትኩሳት ይሰማዋል</string>
+    <string name="cutS9">9.	 እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="diarS1">1. እንክብካቤ ከማድረግህ በፊት እጅህን ታጠብ</string>
+    <string name="diarS2">2. ካታመመው ግለሰብ ሰገራ እና ከአፍ የሚወጣ ትውከት ጋር ላለመገናኘት ጥረት አድርግ ካልሆነ ጓንት ተጠቀም በሌላ በኩል እጅህን ለመሸፈን ንጹሕ የፕላስቲክ ቦርሳ መጠቀም ትችላለህ</string>
+    <string name="diarS3">3. ለታመመ ሰው ብዙ ፈሳሽ በመስጠት የውሃ መሟጠጥን መካላከል</string>
+    <string name="diarS4">4. ከሁለት ዓመት በታች የሆኑ ልጆች ከእያንዳንዱ ሩብ ተኩል (50 – 100 ሚሊ ሊትር) መጠጣት ይኖርባቸዋል</string>
+    <string name="diarS5">5. ከሁለት እስከ አሥር ዓመት ባለው ጊዜ ውስጥ ያሉ ልጆች በሰውነታቸው ፈሳሽ እንዳለቀ ከ100 እስከ 200 ሚሊ ሊትር ድረስ ከግማሽ እስከ ሙሉ ፋሳሽ ተኪ መጠጣት ይኖርባቸዋል</string>
+    <string name="diarS6">6. ከአሥር ዓመት በላይ የሆኑ ልጆችና አዋቂዎች (200 ሚሊ ሊትር) መጠጣት ይኖርባቸዋል</string>
+    <string name="diarS7">7. የታመመ ሰው የጤና ተቋማት ውስጥ የሚገኘውን ኦር ኤስ እንዲጠጣ ምክር መስጠት</string>
+    <string name="diarS8">8. የታመመውን ሰው ትንሽ ሞቅ ያለ ውሃ እንዲጠጣ ማድረግ</string>
+    <string name="diarS9">9. የታመመ ሰው ቀላል ምግብም እንዲበላ ማድረግ</string>
+    <string name="diarS10">10. የታመመውን ሰው (በቀንና በሌሊት) እና የታመመውን የህክምና እርዳታ በየጊዜው ይመልከቱ።</string>
+    <string name="diarS11"> 11.	ግለሰቡ ተቅማጥ በሁለት ቀናት ውስጥ ካልተሻለው ትኩሳት ያለበት ከሆነ ፤ ሰገራው ውስጥ ደም ካለ ሰውነቱ ውስጥ ፋሳሽ ካነሰ ፤(ደረቅ አፍ መድረቅ፣ አይን ዝም ብሎ ማንባት) አፋጣኝ የህክምና እርዳታ እንዲያገኝ ማድረግ ፡፡</string>
+    <string name="diarS12">12.	እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="dogS1">1.	አካባቢው ደህንነቱ የተጠበቀ መሆኑን ያረጋግጡ</string>
+    <string name="dogS2">2.	ውሻው እንዳልነከሳቹ ማረጋግጥ</string>
+    <string name="dogS3">3.	እጅህን በደንብ በሳሙና መታጠብ</string>
+    <string name="dogS4">4.	ከግለሰቡ ደም ጋር እንዳትገናኝ ጥረት አድርግ  ጓንት ተጠቅመህ እጅህን መሸፈን ከሌለ ንጹሕ የፕላስቲክ ቦርሳ መጠቀም ትችላለህ</string>
+    <string name="dogS5">5.	ከ10 እስከ 15 ደቂቃ ባለው ጊዜ ውስጥ የተነከሰው ቦታ ወዲያውኑ በንጹሕ ውኃ እና ሳሙና ማጠብ ።</string>
+    <string name="dogS6">6.	የደም መፍሰስ ካለ ግፊት በመጠቀም እንዲቆም ማደረግ</string>
+    <string name="dogS7">7.	ቁስሉን በንጹህ ጥጥ ጨርቅ ይሸፍኑት</string>
+    <string name="dogS8">8.	ተጨማሪ ሕክምና ለማግኘት ሁልጊዜ የጤና ማዕከል ይውሰዱ</string>
+    <string name="dogS9">9.	እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="drownS1">1. የመስጠም አደጋ ውስጥ አለሞናችሁን ማረጋግጥ</string>
+    <string name="drownS2">2. ግለሰቡ እርዳታ እንዲያገኝ መደወል</string>
+    <string name="drownS3">3. ሊይዘው ለሚችለው ገመድ ወይም አንድ ነገር ለመጣል ሞክር</string>
+    <string name="drownS4">4. ተጎጂውን ከውሃ ውስጥ እንዲወጣ ማድረግ ነገር ግን ይህን በማድረግ ራስህን ለአደጋ ማጋለጥ አያስፈልግም</string>
+    <string name="drownS5">5. በሕይወት ከተረፈ ገለሰቡን ሳይረጋገጥ ውኃውን ከሳንባህ ለማውጣት አትሞክር</string>
+    <string name="drownS6">6. ግለሰቡ የሚተነፍስ ከሆነ ከሕመሙ እንዲያገግም ማድረግ</string>
+    <string name="drownS7">7. ግለሰቡ የሚተነፍስ ካልሆነ ወዲያውኑ CPR መስጠት ይጀምሩ</string>
+    <string name="drownS8">8.ተጨማሪ ሕክምና ለማግኘት ሁልጊዜ ወደ ግለሰቡ የጤና ማዕከል ይውሰዱ</string>
+    <string name="drownS9">9. እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="epilS1">1. አካባቢው ደህንነቱ የተጠበቀ መሆኑን ያረጋግጡ</string>
+    <string name="epilS2">2. ግለሰቡን ሊጎዳ የሚችል ማንኛውንም ነገር አስወግድ</string>
+    <string name="epilS3">3. በአቅራቢያህ ማንኛውንም ግለሰቡን የሚጎዳ ነገር ማስወገድ</string>
+    <string name="epilS4">4. ግለሰቡን ዝቅ ማድረግ አያስፈልግም</string>
+    <string name="epilS5">5. የሚቻል ከሆነ ከራስ በታች ለስላሳ የሆነ ነገር አስቀምጥ</string>
+    <string name="epilS6">6. ግለሰቡ የተጣበቀ ልብስ በመፍታት በነፃነት መተንፈስ እንደሚችል አረጋግጥ</string>
+    <string name="epilS7">7. ጣትህን በአፉ ውስጥ አታድርግ</string>
+    <string name="epilS8">8. የእንጨት ዱላ ወይም ሌላ ነገር በሰውየው አፍ ውስጥ አታስቀምጥ</string>
+    <string name="epilS9">9. ጥቃቱ በሚቆምበት ጊዜ ሰዎች ከሕመማቸው እንዲላቀቁ አድርግ</string>
+    <string name="epilS10">10. ግለሰቡ የተሻለ ሁኔታ ላይ እስኪቆይ ድረስ አብሮ ቆይታ ማድረግ</string>
+    <string name="epilS11">11.	የሚበላና የሚጠጣ ነገር አትስጥ</string>
+    <string name="epilS12">12. ተጨማሪ ሕክምና ለማግኘት ሁልጊዜ ወደ ግለሰቡ የጤና ማዕከል ይደውሉ</string>
+    <string name="epilS13">13.	እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="faintS1">1. አካባቢው ደህንነቱ የተጠበቀ መሆኑን ያረጋግጡ</string>
+    <string name="faintS2">2. ግለሰቡን ወለሉ ላይ ማስቀመጥ</string>
+    <string name="faintS3">3. አብዛኛውን ጊዜ ግለሰቡ ራሱን ከሳተ በኋላ የማገገም እድሉ ከፍተኛ ነው</string>
+    <string name="faintS4">4. ግለሰቡን ጮክ ብለህ አነጋግረው ። በትከሻው ላይ ነክቶ መቀስቀስ ያስፈልጋል</string>
+    <string name="faintS5">5. ግለሰቡ ለቀላል ጥያቄዎች በመጠየቅ ምላሽ እንደሚሰጥ ማረጋገጥ ለምሳሌን(ስምዎ ማነው? የት ይኖራሉ)</string>
+    <string name="faintS6">6. ግለሰቡ ምላሽ ከሰጠ ምን እንደተከሰተ ጠይቅ ። ግለሰቡ እንዲያገግም ወይም በተመቻቸ ሁኔታ ላይ እንዲቀመጥ ፍቀዱለት። ግለሰቡ ምን እንዲያገግም ምክር ስጥ ።</string>
+    <string name="faintS7">7. ግለሰቡ ምላሽ ካልሰጠ በአንገቱ ወይም በጀርባው ላይ ጉዳት ተከስቶ ሊሆን ስለሚችል በተጎዳው አካሉ አለማስተኛት</string>
+    <string name="faintS8">8. ራሳቸውን የማያውቁ ሰዎች አጣዳፊ እርዳታ ያስፈልጋቸዋል ስለዚህ ወደ ጤና ጣቢያ ጥሪ ማድረግ ያስፈልጋል</string>
+    <string name="faintS9">9. ግለሰቡ በማየትና በስሜት በማዳመጥ መተንፈስ አለመኖሩን አረጋግጥ</string>
+    <string name="faintS10">10.	ግለሰቡ የማይተነፍስ ከሆነ ሲፒአር መጀመር። ሲፒአር እስትንፋሱ እንዲያገግም ካደረገው እሱን መመልከቱንና ወደ ጤና ጣቢያ አገልግሎት እንዲያገኝ ማድረግ።</string>
+    <string name="faintS11"> 11. እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="feverS1">1. እንክብካቤ ከማድረግህ በፊት እጅህን ታጠብ</string>
+    <string name="feverS2">2. የግለሰቡ የሙቀት መጠን ምን ያህል ከፍ ያለ እንደሆነ በመለካት ወይም በስሜት ለማወቅ ሞክር</string>
+    <string name="feverS3">3. ግለሰቡ እንዲያርፍ መጠየቅ</string>
+    <string name="feverS4">4. ግለሰቡን ወደ ቀዝቃዛ አካባቢ ማንቀሳቀስ</string>
+    <string name="feverS5">5. የውሃ መሟጠጥን ለመከላከል ግለሰቡ ብዙ ውሃ እንዲጠጣ ስጠው</string>
+    <string name="feverS6">6. ግለሰቡ ምን ዓይነት አለባበስ እንደለበሰ ገምግም። ከመጠን በላይ የሙቀቱን መጠን ሊጨምር ይችላል፤ አነስተኛ ከሆነ መንቀጠቀጡን ሊያስከትል ይችላል</string>
+    <string name="feverS7">7. ውሎ አድሮ የታመመውን ሰው የማይወዱት ወይም መንቀጠቀጥ ካልጀመሩ በስተቀር በክፍል ሙቀት ውኃ ልትሰፍነው ትችላለህ</string>
+    <string name="feverS8">8. በቀንና በሌሊት በሽተኛውን መከታተሉን ቀጥል</string>
+    <string name="feverS9">9. ትኩሳት ካለቀነሰ ወይም የግለሰቡ ሁኔታ እየተባባሰ ከሄደ የታመመውን ሰው በአቅራቢያው ወደሚገኝ የጤና ተቋማት ማምጣት</string>
+    <string name="feverS10"> 10. እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="fractureS1">1.አካባቢው ደህንነቱ የተጠበቀ መሆኑን ያረጋግጡ</string>
+    <string name="fractureS2">2. እርዳታ እንዲያገኝ መደወል</string>
+    <string name="fractureS3">3. ከግለሰቡ ደም ጋር እንዳትገናኝ ጥረት አድርግ ። ጓንት ካለህ መጠቀም ትችላለህ ካልሆነ እጅህን ለመሸፈን ንጹሕ የፕላስቲክ ቦርሳ መጠቀም ትችላለህ</string>
+    <string name="fractureS4">4. ይህ እንዴት እንደሆነ አረጋግጥ</string>
+    <string name="fractureS5">5. ግለሰቡ እንዲረጋጋና እንዳይንቀሳቀስ ምክር ስጥ</string>
+    <string name="fractureS6">6. የተሰበረውን እግር ላለማንቀሳቀስ ጥረት አድርጉ</string>
+    <string name="fractureS7">7. ጉዳት የደረሰበት አካል ደህንነቱ እስኪጠበቅ ድረስ ላለማንቀሳቀስ ጥረት አድርጉ</string>
+    <string name="fractureS8">8. የደም መፍሰስ ካለ ቁስሉ ላይ ቀጥተኛ ግፊት በማድረግ የደም መፍሰሱን አቁሙ</string>
+    <string name="fractureS9">9. ከንጹህ የጥጥ ጨርቅ በኋላ ቁስሉን ይሸፍን</string>
+    <string name="fractureS10">10. የተጎዳውን ክፍል (የተሰበረ ክንድ) ራሱ ለመደገፍ ምን እንደሆነ ሐሳብ ስጥ፤ በአቅራቢያህ ያለ ሰው እንዲህ እንዲያደርግ ጠይቅህ ጠይቅ</string>
+    <string name="fractureS11">11. ጉዳት የደረሰበት ክፍል በፋሻ የተቆሰለውን ክፍል እያንቀሳቀሰ ላለማንቀሳቀስ ይሞክር</string>
+    <string name="fractureS12">12. እንዴት የተሰባበረውን እግርህን በሽቅብ ልታንቀሳቅሰው በሊፍተር ከፍ አድርገው</string>
+    <string name="fractureS13">13. ለሰውየው የሚጠጣ ወይም የሚበላ ነገር አትስጠው</string>
+    <string name="fractureS14">14. በአቅራቢያህ በሚገኝ ሆስፒታል ተስማሚ መጓጓዣ አዘጋጅ</string>
+
+    <string name="breathS1">1. አካባቢው ደህንነቱ የተጠበቀ መሆኑን ያረጋግጡ</string>
+    <string name="breathS2">2. እርዳታ እንዲያገኝ መደወል</string>
+    <string name="breathS3">3. የመታፈን ምክንያት አስወግዱ፤ ሆኖም እንዲህ በማድረግ ራሳችሁን ለአደጋ አታስቀምጥ</string>
+    <string name="breathS4">4. ግለሰቡ በአግባቡ እየተነፈሰ እንደሆነ አረጋግጥ</string>
+    <string name="breathS5">5. መተንፈስ ካልቻለ ዞር ማለት ወይም ግለሰቡን ጀርባውን ወደ ላይ ወይም ወደ ላይ ማድረግ። በሰውዬው ጎን ተንበርክከው CPR ይጀምሩ</string>
+    <string name="breathS6">6. ግለሰቡ መተንፈስ እስኪጀምር ድረስ ሲፒ አር መስጠታችሁን ቀጥሉ፤ የሰለጠነ እርዳታ ደርሶ እስኪያግዛቹ ድረስ መቀጠል</string>
+    <string name="breathS7">7. ግለሰቡ እንደገና መተንፈስ ከጀመረ የመጀመሪያውን እርዳታ (የደም መፍሰስን አቁሙ) መተንፈስ ካቆመ ወደ ጤና አገልግሎት የሚያጓጉዝ ማዘጋጀት።</string>
+    <string name="breathS8">8. እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="noseS1">1. ግለሰቡ አፍንጫውን ከአፍንጫው በላይ በጣቱና በአውራ ጣት እንዲጨብጠው ጠይቀው። በአፍ እንዲተነፍስ ንገረው። ወደፊት እንዲደገፍ ማድረግ</string>
+    <string name="noseS2">2. አፍንጫውን መጨበጥ ካልቻሉ ጓንት በመጠቀም ጫን ብሎ መያዝ</string>
+    <string name="noseS3">3. ከ10 እስከ 15 ደቂቃ ድረስ የአፍንጫ ድም መፍሰስን ለማቆም መሞከር</string>
+    <string name="noseS4">4.ከ20 ደቂቃ በኋላም ደም የሚፈስ ከሆነ ወይስ የፈሰሰው በአፍንጫ ወይም ጭንቅላት ላይ ምት ከሆነ ወይም የደም መፍሰሱ ከባድ ከሆነ ወይም ግለሰቡ ግራጫ፣ ወይም ራሱን ስቶ ከሆነ ፤ ግለሰቡ የደም ፈሰት የሚያቆም መድኃኒት ቢወስድ በመጨረሻም የሕክምና እርዳታ ለማግኘት ጥረት አድርግ</string>
+    <string name="noseS5">5. እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="poisonS1">1. በመጀመሪያ የራስህን ደህንነት አስተማማኝ ማድረግ የምትችለው ጉዳት የደረሰባቸውን ሰዎች ደህንነት ለመጠበቅ ነው</string>
+    <string name="poisonS2">2. እርዳታ እንዲያገኝ መደወል</string>
+    <string name="poisonS3">3. እጅዎን ይጠቀሙ እጅ ወይም የፕላስቲክ መሸፈኛ</string>
+    <string name="poisonS4">4. የሚቻል ከሆነ ምን ዓይነት መርዝ እንደዋጠ፣ እንደተወጋ፣ ወደ ውስጥ እንደገባ ወይም ከሰውየው ቆዳ ጋር እንደተገናኘ ለማወቅ ሞክር። ይሁን እንጂ ራስህን ለአደጋ አታድርግ ። ከመርዙ ጋር እንዳትገናኝ ተጠንቀቅ።</string>
+    <string name="poisonS5">5.ምክር ለማግኘት ፀረ መርዝ ማዕከል ወይም በአቅራቢያው ወደሚገኘው ሆስፒታል፣ የጤና ጥበቃ ማዕከል ወይም የሕክምና ባለሙያ ይደውሉ። ያለ ምክር የምትበላውም ሆነ የምትጠጣው ነገር አትስጥ ። ወተትም ሆነ ውሃ አትስጥ ።</string>
+    <string name="poisonS6">6. መርዙ ቢውጥና ሰውየው ንቁ ሆኖ ቢተነፍስ በግራ በኩል እንዲተኛ ጠይቀው።</string>
+    <string name="poisonS7">7. ከደረቅ ኬሚካሎች ወይም ዱቄቶች ጋር ከውጪ በምትገናኝበት ጊዜ እነዚህን ኬሚካሎች በሙቅ ውኃ ታጥበው።</string>
+    <string name="poisonS8">8. በአቅራቢያህ በሚገኝ ሆስፒታል ተስማሚ መጓጓዣ አዘጋጅ</string>
+    <string name="poisonS9">9. እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="stingS1">1. አካባቢው ደህንነቱ የተጠበቀ መሆኑን ያረጋግጡ</string>
+    <string name="stingS2">2. የተርቦች ወይም ንቦች ባሉበት አካባቢ ከሆንክ ጉዳት ከደረሰበት ሰው ጋር ተረጋግተህ ይበልጥ አስተማማኝ ወደሆነ አካባቢ ሂድ። በመንጋ ጥቃት ከተሰነዘረ በተቻለ መጠን በፍጥነት ሽሽና መጠለያ ፈልግ (በቤት ውስጥ, በመኪና ውስጥ)</string>
+    <string name="stingS3">3. የንብ እሾክ ለማስወገድ የጣት ጥፍርህን ተጠቀም</string>
+    <string name="stingS4">4. ውሎ አድሮ የተነከሰውን ቦታ በውኃ ማጠብ</string>
+    <string name="stingS5">5. መርዘሙ ለመምጠጥ አትሞክር። በቁስሉ ላይ ቅጠላ ቅጠሎችን አታስቀምጥ</string>
+    <string name="stingS6">6. በረዶ ካለህ ለማቀዝቀዝ ልትጠቀምበት ትችላለህ፤ በረዶው ቆዳውን በቀጥታ እንዳይነካው በረዶውን በጨርቅ መጠቅለል ከ20 ደቂቃ ማድረግ አያስፈልግም</string>
+    <string name="stingS7">7. ግለሰቡን ተከታተል ። ስለታወቁት አለርጂዎች ጠይቀው። ይህ በፍጥነት ሕይወትን አደጋ ላይ የሚጥስ ሁኔታ ሊሆን ወዲያውኑ የህክምና እርዳታ ቦታ መውሰድ ያስፈልጋል</string>
+    <string name="stingS8">8. እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+    <string name="strokeS1">1. ግለሰቡ ፈገግ እንዲል ወይም አፉ የተጠማዘዘ ወይም በአንድ ማዕዘን ላይ የተንጠባጠበ መሆን አለመሆኑን እንዲያጣራ ጠይቀው</string>
+    <string name="strokeS2">2. ግለሰቡ ሁለቱንም ክንዶች እንዲያነሳ፣ ሁለቱም ክንዶች አንድ ዓይነት መሆን አለመሆናቸውን ወይም አንዱ እየተንሸራተተ ወይም እየተንሸራተተ እንዳልሆነ አረጋግጥ</string>
+    <string name="strokeS3">3. ግለሰቡ የሆነውን ነገር ጠይቀው ። በግልጽ መናገር ይችል እንደሆነ ወይም ቃላቱን ለማወቅ ችግር እንዳለው አረጋግጥ</string>
+    <string name="strokeS4">4. ግለሰቡ ከላይ ከተዘረዘሩት ድርጊቶች ጋር በተያያዘ ችግር ሲኖርበት በአንጎል ውስጥ ደም የመፍሰስ ችግር ሊኖር ይችላል</string>
+    <string name="strokeS5">5. ግለሰቡ ቀጥ ብሎ ይቀመጥ፣ ካልተቻለ የማገገሚያ ቦታ ላይ ያስቀምጡት</string>
+    <string name="strokeS6">6. ግለሰቡ እንዲረጋጋ ጠይቀው</string>
+    <string name="strokeS7">7. የምትበላውም ሆነ የምትጠጣው ነገር አትስጥ</string>
+    <string name="strokeS8">8. በአቅራቢያህ በሚገኝ ሆስፒታል ተስማሚ መጓጓዣ አዘጋጅ</string>
+    <string name="strokeS9">9. እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
+
+
+
+
+
+
+
+
+
+
+</resources>
