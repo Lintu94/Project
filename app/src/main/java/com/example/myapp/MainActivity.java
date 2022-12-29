@@ -302,15 +302,72 @@ public class MainActivity extends AppCompatActivity {
         img0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String number="0915059194";
+                String number="+2516660527";
           builderShow(number);
             }
         });
         img1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String number="0935625160";
+                String number="+251115180181";
                 builderShow(number);
+            }
+        });
+        img2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String number="+251582221041";
+                builderShow(number);
+            }
+        });
+        img3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String number="+2510114405983";
+                builderShow(number);
+            }
+        });
+        img4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String number="+2511111430";
+                builderShow(number);
+            }
+        });
+
+        img5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+            }
+        });
+        img6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+        img7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+        img8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+        img9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+        img10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
             }
         });
 
