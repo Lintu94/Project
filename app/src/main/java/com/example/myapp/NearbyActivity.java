@@ -84,7 +84,12 @@ public class NearbyActivity extends AppCompatActivity {
             }
         });
 
+
+
+
     }
+
+
 
     private void getCurrentLocation() {
 
@@ -204,4 +209,8 @@ public class NearbyActivity extends AppCompatActivity {
             }
         }
     }
+
+
+
+
 }

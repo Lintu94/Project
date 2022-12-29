@@ -190,39 +190,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        getMenuInflater().inflate(R.menu.menu,menu);
-//        MenuItem menuItem = menu.findItem(R.id.search_view);
-//        SearchView searchView = (SearchView) menuItem.getActionView();
-//        searchView.setQueryHint("type to search");
-//        searchView.setMaxWidth(Integer.MAX_VALUE);
-//        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-//            @Override
-//            public boolean onQueryTextSubmit(String query) {
-//                return false;
-//            }
-//
-//            @Override
-//            public boolean onQueryTextChange(String newText) {
-//                usersAdapter.getFilter().filter(newText);
-//                return true;
-//            }
-//        });
-//
-//
-//        return true;
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-//        int id = item.getItemId();
-//        if (id==R.id.search_view)
-//        {
-//            return true;
-//        }
-//        return super.onOptionsItemSelected(item);
-//    }
 
 
     private void languageDialog() {

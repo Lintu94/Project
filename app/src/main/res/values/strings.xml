@@ -51,6 +51,10 @@
     <string name="writ">Write Your Message</string>
     <string name="writes">Write your preferred developer email here</string>
     <string name="send">Send</string>
+    <string name="share">Share</string>
+    <string name="view">View</string>
+
+
 
     <string name="lina">Lina Mikail</string>
     <string name="linEmail">linamikail9416@gmail.com</string>
@@ -59,7 +63,7 @@
     <string name="miki">Mikiyas Melaku</string>
     <string name="mikiEmail">mikiyasmelaku1998@yahoo.com</string>
     <string name="arif">Arif Jemal</string>
-    <string name="arifEmail">aaaaaaaaaaaaaaaaa</string>
+    <string name="arifEmail">Fahmijemal629@yahoo.com</string>
     <string name="rose">Tsigereda Daniel</string>
     <string name="roseEmail">rose.mlhffgj</string>
     <string name="ask">Contact your preferred developer below</string>
@@ -310,6 +314,22 @@
 <!--    <string name="google_map_key">AIzaSyAejNAM36dyg58HFm-mw_zsAzIPh_RbrpI</string>-->
 
     <string name="google_map_key">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+
+    <string name="phone_number">Phone Number</string>
+    <string name="see">If you want to see Your Current Location ?</string>
+    <string name="contacts">Reginal Emergenciy Contacts</string>
+    <string name="harar">Harari Region</string>
+    <string name="addis">Addis Ababa</string>
+    <string name="amhara">Amhara Region</string>
+    <string name="oromia">Oromia Region</string>
+    <string name="dire">Dire Dawa</string>
+    <string name="afar">Afar Region</string>
+    <string name="tigray">Tigray Region</string>
+    <string name="snnp">SNNP Region</string>
+    <string name="somale">Somale Region</string>
+    <string name="benishangul">Benishangul Region</string>
+    <string name="gambela">Gambela Region</string>
+    <string name="required">Required</string>
 
 
 </resources>

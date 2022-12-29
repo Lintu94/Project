@@ -148,7 +148,7 @@
 
         <TextView
             android:id="@+id/tv2"
-            android:layout_width="350dp"
+            android:layout_width="match_parent"
             android:layout_height="63dp"
             android:layout_below="@id/layout"
             android:layout_centerHorizontal="true"
@@ -162,7 +162,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tv2"
-            android:layout_marginTop="-25dp"
+
             android:gravity="bottom"
             android:hint="@string/writes"
             android:overScrollMode="always"

@@ -54,17 +54,20 @@
     <string name="enter_your_name">ስምህን አስገባ</string>
     <string name="write">አስተያየትዎን ይፃፉ</string>
     <string name="writ">መልዕክትዎን ይፃፉ</string>
+    <string name="writes">የመረጡትን የዴቨሎፐር ኢሜይል እዚህ ይጻፉ</string>
 
     <string name="send">ላክ</string>
+    <string name="share">ያጋሩ</string>
+    <string name="view">አሳይ</string>
 
     <string name="lina">ሊና ሚካኢል</string>
     <string name="linEmail">linamikail9416@gmail.com</string>
     <string name="belay">በላይ ዘለቀ</string>
-    <string name="belayEmail">bbbbbbb</string>
+    <string name="belayEmail">belayzeleke.bz@gmail.com</string>
     <string name="miki">ሚኪያስ መላኩ</string>
-    <string name="mikiEmail">mmmmmmmmm</string>
+    <string name="mikiEmail">mikiyasmelaku1998@yahoo.com</string>
     <string name="arif">አሪፍ ጀማል</string>
-    <string name="arifEmail">aaaaaaaaaaaaaaaaa</string>
+    <string name="arifEmail">Fahmijemal629@yahoo.com</string>
     <string name="rose">ጽጌሬዳ ዳንኤል</string>
     <string name="roseEmail">jjjjjjjjjjj njjjjj uyuyt</string>
     <string name="ask">ገንቢዎችን ማነጋገር ይፈልጋሉ? መልእክትዎን ከታች ይጻፍ</string>
@@ -283,9 +286,23 @@
     <string name="strokeS9">9. እንክብካቤ ከሰጠህ በኋላ ምንጊዜም እጅህን ታጠብ</string>
 
 
+    <string name="phone_number">ስልክ ቁጥር</string>
+    <string name="see">የእርስዎን የአሁኑ አካባቢ ማየት ከፈለጉ</string>
+    <string name="contacts">መደበኛ የአደጋ ጊዜ ስልኮች</string>
+    <string name="harar">ሀራሪ ክልል</string>
+    <string name="addis">አዲስ አበባ</string>
+    <string name="amhara">የአማራ ክልል</string>
+    <string name="oromia">የኦሮሚያ ክልል</string>
+    <string name="dire">ድሬዳዋ</string>
+    <string name="afar">አፋር ክልል</string>
+    <string name="tigray">የትግራይ ክልል</string>
+    <string name="snnp">የደቡብ ክልል</string>
+    <string name="somale">ሶማሌ ክልል</string>
+    <string name="benishangul">ቤኒሻንጉል ክልል</string>
+    <string name="gambela">ጋምቤላ ክልል</string>
 
 
-
+    <string name="required">ያስፈልጋል</string>
 
 
 

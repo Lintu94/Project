@@ -6,8 +6,11 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.content.res.Configuration;
 import android.database.Cursor;
 import android.location.Address;
 import android.location.Geocoder;
@@ -74,6 +77,7 @@ public class ShareActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        LoadLocale();
         setContentView(R.layout.activity_share);
         textInputEditText = findViewById(R.id.editPhone);
         sharebtn = findViewById(R.id.btnShare);
@@ -221,6 +225,29 @@ textInputLayout.setStartIconOnClickListener(new View.OnClickListener() {
 
 
     }
+
+
+
+
+    private void setLanguage(String en) {
+        Locale locale =new Locale(en);
+        Locale.setDefault(locale);
+        Configuration configuration = new Configuration();
+        configuration.locale=locale;
+        getBaseContext().getResources().updateConfiguration(configuration,getBaseContext().getResources().getDisplayMetrics());
+        SharedPreferences.Editor editor = getSharedPreferences("Settings",MODE_PRIVATE).edit();
+        editor.putString("My_Lang",en);
+        editor.apply();
+    }
+
+    public void LoadLocale()
+    {
+        SharedPreferences preferences = getSharedPreferences("Settings", Activity.MODE_PRIVATE);
+        String language = preferences.getString("My_Lang","");
+        setLanguage(language);
+
+    }
+
 }
 
 
