@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My First</string>
+    <string name="app_name">First Aid Guidance</string>
 
     <string name="Emergency">Emergency</string>
     <string name="VideoInstruction">Video</string>
@@ -313,7 +313,9 @@
 
 <!--    <string name="google_map_key">AIzaSyAejNAM36dyg58HFm-mw_zsAzIPh_RbrpI</string>-->
 
-    <string name="google_map_key">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+<!--    <string name="google_map_key">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>-->
+
+    <string name="google_map_key">AIzaSyA2n7ERw8u5pBjglqymZX7Ojz-XAKu3Wr0</string>
 
     <string name="phone_number">Phone Number</string>
     <string name="see">If you want to see Your Current Location ?</string>

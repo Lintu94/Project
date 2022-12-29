@@ -21,6 +21,7 @@ import android.provider.ContactsContract;
 import android.telephony.SmsManager;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Switch;
 import android.widget.Toast;
 
 import java.io.IOException;
@@ -134,15 +135,8 @@ public class ShareActivity extends AppCompatActivity {
           @Override
           public void onClick(View view) {
 
-              String phone = textInputEditText.getText().toString();
-              if(textInputEditText.getText().toString()==""){
-                  Toast.makeText(ShareActivity.this, "Pleas Insert Phone Number or chose from Contacts", Toast.LENGTH_SHORT).show();
-              }
-             if( textInputEditText.getText().toString().substring(0,1)=="09"  || textInputEditText.getText().toString().substring(0,1)!="07") {
-                  Toast.makeText(ShareActivity.this, "Pleas Insert valid Phone Number", Toast.LENGTH_SHORT).show();
-                  textInputEditText.setText("");
-              }
-          if(textInputEditText.getText().toString()!="" && textInputEditText.getText().toString().substring(0,1)=="09" || textInputEditText.getText().toString().substring(0,1)=="07"){
+
+
                   fusedLocationClient = LocationServices.getFusedLocationProviderClient(ShareActivity.this);
                   if (ActivityCompat.checkSelfPermission(ShareActivity.this
                           , Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -177,15 +171,25 @@ public class ShareActivity extends AppCompatActivity {
                                   List<Address> addresses = geocoder.getFromLocation(
                                           location.getLatitude(), location.getLongitude(), 1);
                                   String uri = "http://maps.google.com/?q=" + location.getLatitude() + "," + location.getLongitude();
-                                  Toast.makeText(ShareActivity.this, "ur current loaction is " + uri, Toast.LENGTH_SHORT).show();
+//                                  Toast.makeText(ShareActivity.this, "ur current loaction is " + uri, Toast.LENGTH_SHORT).show();
+
+                                  String phone=textInputEditText.getText().toString();
 
                                   if (ContextCompat.checkSelfPermission(ShareActivity.this, Manifest.permission.SEND_SMS) == PackageManager.PERMISSION_GRANTED) {
+                                                if (phone.equals("") ){
+                                                    Toast.makeText(ShareActivity.this, "Enter Phone Number", Toast.LENGTH_SHORT).show();
+                                                }
 
-                                      SmsManager smsManager = SmsManager.getDefault();
-                                      StringBuffer smsBody = new StringBuffer();
-                                      smsBody.append(Uri.parse(uri));
-                                      smsManager.sendTextMessage(String.valueOf(phone), null, smsBody.toString(), null, null);
-                                      textInputEditText.setText("");
+
+                                                    else {
+                                                    SmsManager smsManager = SmsManager.getDefault();
+                                                    StringBuffer smsBody = new StringBuffer();
+                                                    smsBody.append(Uri.parse(uri));
+                                                    smsManager.sendTextMessage(String.valueOf(phone), null, smsBody.toString(), null, null);
+                                                    textInputEditText.setText("");
+                                                }
+
+
                                   } else {
                                       ActivityCompat.requestPermissions(ShareActivity.this, new String[]{Manifest.permission.SEND_SMS}, 1);
                                   }
@@ -200,7 +204,7 @@ public class ShareActivity extends AppCompatActivity {
                       }
 
                   });
-              }
+
 
 
 
