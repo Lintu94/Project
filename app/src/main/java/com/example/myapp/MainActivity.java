@@ -30,6 +30,7 @@ import com.example.myapp.HomeActivities.EmergencyActivity;
 import com.example.myapp.HomeActivities.NearbyActivity;
 import com.example.myapp.HomeActivities.ShareActivity;
 
+import com.example.myapp.HomeActivities.TipsActivity;
 import com.example.myapp.HomeActivities.VideosActivity;
 import com.example.myapp.NavActivities.ContactActivity;
 import com.example.myapp.NavActivities.FeedbackActivity;
@@ -161,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
                         Intent intent = new Intent();
                         intent.setAction(Intent.ACTION_SEND);
                         intent.setType("text/plain");
-                        intent.putExtra(Intent.EXTRA_TEXT, "This is the share text");
+                        intent.putExtra(Intent.EXTRA_TEXT, " https://github.com/Lintu94/Project.git");
                         startActivity(Intent.createChooser(intent, "First Aid"));
                         break;
                     case R.id.feed_nav:

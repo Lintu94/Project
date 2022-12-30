@@ -64,7 +64,7 @@
     <string name="arif">Arif Jemal</string>
     <string name="arifEmail">Fahmijemal629@yahoo.com</string>
     <string name="rose">Tsigereda Daniel</string>
-    <string name="roseEmail">rose.mlhffgj</string>
+    <string name="roseEmail">rosedanel46@gmail.com</string>
     <string name="ask">Contact your preferred developer below</string>
     <string name="check">check</string>
 
@@ -332,7 +332,7 @@
     <string name="gambela">Gambela Region</string>
     <string name="required">Required</string>
 
-     <string name="myth_fact">Myth and Facts Regarding to First Aid</string>
+    <string name="myth_fact">Myth and Facts Regarding to First Aid</string>
     <string name="tipS1">Myth: Put your head back when you have a nosebleed.</string>
     <string name="tipS2">Fact: Don’t put your head back! Blood could flow down your throat and potentially into your stomach.</string>
     <string name="tipS3">Myth: Help soothe and heal a burn by applying butter</string>
@@ -342,16 +342,16 @@
     <string name="tipS7">Myth: Force Someone to Vomit Up Poison</string>
     <string name="tipS8">Fact: many poisons are worse for the body coming up than going down.</string>
 
-<!--    <string name="tipS1"></string>-->
-<!--    <string name="tipS1"></string>-->
-<!--    <string name="tipS1"></string>-->
-<!--    <string name="tipS1"></string>-->
-<!--    <string name="tipS1"></string>-->
-<!--    <string name="tipS1"></string>-->
-<!--    <string name="tipS1"></string>-->
-<!--    <string name="tipS1"></string>-->
-<!--    <string name="tipS1"></string>-->
-<!--    <string name="tipS1"></string>-->
+    <!--    <string name="tipS1"></string>-->
+    <!--    <string name="tipS1"></string>-->
+    <!--    <string name="tipS1"></string>-->
+    <!--    <string name="tipS1"></string>-->
+    <!--    <string name="tipS1"></string>-->
+    <!--    <string name="tipS1"></string>-->
+    <!--    <string name="tipS1"></string>-->
+    <!--    <string name="tipS1"></string>-->
+    <!--    <string name="tipS1"></string>-->
+    <!--    <string name="tipS1"></string>-->
     <string name="golden_rule">The golden rules of First Aid</string>
     <string name="recipes">10 Recipes for Success at Effective and Safe First Aid:</string>
 
@@ -384,9 +384,6 @@
     <string name="three_cs1.1">Check means checking for anything unsafe. If the emergency is surrounded by danger, assistance may be needed. Rushing into a scene without taking in present dangers may lead to more harm for yourself or others. For example, if there a car wreck happens in a high traffic area or there is someone in need of help in a fire, you will need to seek assistance. Check the scene before entering it. Take the evolution of the scene. Next check if the victim is breathing. You may need to give specific care such as CPR. </string>
     <string name="three_cs2.1">In emergency situations, it’s important to call 911 immediately. As a first responder, act right away to get help from professionals. Inspect the scene, gather needed information—check for breathing and pulse from any victims, and any other helpful information. Provide correct information for local authorities and get them involved as soon as possible. </string>
     <string name="three_cs3.1">After checking the scene and calling for help, provide care until medical professionals arrive on the scene. Monitor the victims breathing. You may need to stop bleeding or perform CPR. Follow the circulation-airway-breathing of first aid. </string>
-
-
-
 
 
 </resources>

@@ -19,10 +19,11 @@
             android:id="@+id/layout1"
             android:layout_width="match_parent"
             android:layout_height="80dp">
+
             <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:id="@+id/toolbar"
                 app:navigationIcon="@drawable/ic_baseline_menu_24"
                 app:navigationIconTint="@color/white"
                 app:title="First Aid"

@@ -45,13 +45,15 @@ public class NearbyActivity extends AppCompatActivity {
     FusedLocationProviderClient fusedLocationProviderClient;
     double currentLat = 0, currentLong = 0;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nearby);
 
         //spType = findViewById(R.id.sp_type);
-        btFind = findViewById(R.id.bt_find);
+
         supportMapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.google_map);
 
         String[] placeTypeList = {"atm", "bank", "hospital", "movie_theater", "restaurant"};
@@ -75,16 +77,13 @@ public class NearbyActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
               //  int i = spType.getSelectedItemPosition();
-                String url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json" +
+                String url = "http://maps.googleapis.com/maps/api/place/nearbysearch/json?" +
                         "?location=" + currentLat + "," + currentLong + "&radius=500" +
                         "&type= hospital" + "&sensor=true" +
                         "&key=" + getResources().getString(R.string.google_map_key);
                 new PlaceTask().execute(url);
             }
         });
-
-
-
 
     }
 
