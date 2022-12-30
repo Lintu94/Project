@@ -42,7 +42,7 @@ public class Choke2Activity extends AppCompatActivity {
         });
 
         VideoView videoView = findViewById(R.id.video_view);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.bleeding;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.chooke2;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
 

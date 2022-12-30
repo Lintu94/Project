@@ -43,7 +43,7 @@ public class BurnActivity extends AppCompatActivity {
         });
 
         VideoView videoView = findViewById(R.id.video_view);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.burn;
+        String videoPath = "android.resource://" + getPackageName() +"/" + R.raw.burn;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
 

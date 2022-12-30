@@ -42,7 +42,7 @@ public class FeverActivity extends AppCompatActivity {
         });
 
         VideoView videoView = findViewById(R.id.video_view);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.bleeding;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.fever;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
 

@@ -42,7 +42,7 @@ public class DrowningActivity extends AppCompatActivity {
         });
 
         VideoView videoView = findViewById(R.id.video_view);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.bleeding;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.drown;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
 

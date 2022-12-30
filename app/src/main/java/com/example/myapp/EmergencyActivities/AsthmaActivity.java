@@ -45,7 +45,7 @@ public class AsthmaActivity extends AppCompatActivity {
         });
 
         VideoView videoView = findViewById(R.id.video_view);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.asthma;
+        String videoPath = "android.resource://" + getPackageName() + "/"+ R.raw.asthma;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
 
