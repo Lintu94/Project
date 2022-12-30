@@ -368,12 +368,12 @@
 
     <string name="principle_of_aid">Principles of First Aid</string>
 
-    <string name="principle_of_aid1">Preserve Life.</string>
-    <string name="principle_of_aid2">Prevent Deterioration.</string>
-    <string name="principle_of_aid3">Promote Recovery.</string>
-    <string name="principle_of_aid4">Taking immediate action.</string>
-    <string name="principle_of_aid5">Calming down the situation.</string>
-    <string name="principle_of_aid6">Calling for medical assistance.</string>
+    <string name="principle_of_aid1">1. Preserve Life.</string>
+    <string name="principle_of_aid2">2. Prevent Deterioration.</string>
+    <string name="principle_of_aid3">3. Promote Recovery.</string>
+    <string name="principle_of_aid4">4. Taking immediate action.</string>
+    <string name="principle_of_aid5">5. Calming down the situation.</string>
+    <string name="principle_of_aid6">6. Calling for medical assistance.</string>
 
     <string name="three_cs">The Three Cs of Emergency </string>
 

@@ -23,18 +23,33 @@
         android:text="@string/FirstAidTip"
         android:textColor="@color/white"
         android:textSize="30sp"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"/>
+
 
  <ScrollView
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
      android:scrollbars="vertical">
 
+
+
      <LinearLayout
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:orientation="vertical"
          android:padding="16dp">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:textColor="@color/white"
+             android:textStyle="bold"
+             android:textSize="25sp"
+             android:text="@string/myth_fact"
+
+             />
 
      <TextView
          android:layout_width="match_parent"
@@ -98,6 +113,210 @@
              style="@style/tipText"
              android:text="@string/tipS8"
              />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:textColor="@color/white"
+             android:textStyle="bold"
+             android:textSize="25sp"
+             android:text="@string/golden_rule"
+
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:textStyle="bold|italic"
+             android:textColor="@color/white"
+             android:textSize="20dp"
+             android:text="@string/recipes"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/tipSR1"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/tipR2"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/tipR3"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/tipR4"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/tipR5"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/tipR6"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/tipR7"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/tipR8"
+             />
+
+         <TextView
+             style="@style/tipText"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:text="@string/tipR9" />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/tipR10"
+             />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/principle_of_aid1"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/principle_of_aid2"
+             />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:text="@string/principle_of_aid"
+             android:textColor="@color/white"
+             android:textSize="25sp"
+             android:textStyle="bold" />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/principle_of_aid3"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/principle_of_aid4"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/principle_of_aid5"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/principle_of_aid6"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:textColor="@color/white"
+             android:textStyle="bold"
+             android:textSize="25sp"
+             android:text="@string/three_cs"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:textStyle="bold|italic"
+             android:textColor="@color/white"
+             android:textSize="20dp"
+             android:text="@string/three_cs1"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/three_cs1.1"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:textStyle="bold|italic"
+             android:textColor="@color/white"
+             android:textSize="20dp"
+             android:text="@string/three_cs2"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/three_cs2.1"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:textStyle="bold|italic"
+             android:textColor="@color/white"
+             android:textSize="20dp"
+             android:text="@string/three_cs3"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             style="@style/tipText"
+             android:text="@string/three_cs3.1"
+             />
+
+
+
+
 
 
 
