@@ -1,4 +1,4 @@
-package com.example.myapp;
+package com.example.myapp.HomeActivities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,10 +10,9 @@ import android.location.Location;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.Spinner;
 
+import com.example.myapp.R;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -39,7 +38,7 @@ import java.util.List;
 
 public class NearbyActivity extends AppCompatActivity {
 
-    Spinner spType;
+    //Spinner spType;
     Button btFind;
     SupportMapFragment supportMapFragment;
     GoogleMap map;
@@ -51,15 +50,15 @@ public class NearbyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nearby);
 
-        spType = findViewById(R.id.sp_type);
+        //spType = findViewById(R.id.sp_type);
         btFind = findViewById(R.id.bt_find);
         supportMapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.google_map);
 
         String[] placeTypeList = {"atm", "bank", "hospital", "movie_theater", "restaurant"};
-        String[] placeNameList = {"Atm", "Bank", "Hospital", "Movie_Theater", "Restaurant"};
+        //String[] placeNameList = {"Atm", "Bank", "Hospital", "Movie_Theater", "Restaurant"};
 
-        spType.setAdapter(new ArrayAdapter<>(NearbyActivity.this,
-                android.R.layout.simple_spinner_dropdown_item, placeNameList));
+        //spType.setAdapter(new ArrayAdapter<>(NearbyActivity.this,
+                //android.R.layout.simple_spinner_dropdown_item, placeNameList));
 
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(NearbyActivity.this);
         if (ActivityCompat.checkSelfPermission(NearbyActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION ) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(NearbyActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION ) != PackageManager.PERMISSION_GRANTED )  {
@@ -75,10 +74,10 @@ public class NearbyActivity extends AppCompatActivity {
         btFind.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int i = spType.getSelectedItemPosition();
+              //  int i = spType.getSelectedItemPosition();
                 String url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json" +
-                        "?location=" + currentLat + "," + currentLong + "&radius=5000" +
-                        "&type=" + placeTypeList[i] + "&sensor=true" +
+                        "?location=" + currentLat + "," + currentLong + "&radius=500" +
+                        "&type= hospital" + "&sensor=true" +
                         "&key=" + getResources().getString(R.string.google_map_key);
                 new PlaceTask().execute(url);
             }
@@ -114,7 +113,7 @@ public class NearbyActivity extends AppCompatActivity {
                          public void onMapReady(@NonNull GoogleMap googleMap) {
                              map=googleMap;
                              map.animateCamera(CameraUpdateFactory.newLatLngZoom(
-                                     new LatLng(currentLat,currentLong),10
+                                     new LatLng(currentLat,currentLong),15
                              ));
 
 

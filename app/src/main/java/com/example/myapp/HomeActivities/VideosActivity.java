@@ -61,13 +61,28 @@ public class VideosActivity extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
        // youtubeVideos.add(new YoutubeVideo());
-        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\") src=\"https://www.youtube.com/embed/47yJ2XCRLZs\" frameborder=\"0\" allowfullscreen></iframe>"));
+//        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\") src=\"https://www.youtube.com/embed/hdVKpUR513M\" frameborder=\"0\" allowfullscreen></iframe>"));
+//        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\") src=\"https://www.youtube.com/embed/M-tFVvdsWAY\" frameborder=\"0\" allowfullscreen></iframe>"));
+//        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\") src=\"https://www.youtube.com/embed/PmmhxW0vVXA\" frameborder=\"0\" allowfullscreen></iframe>"));
+//        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\") src=\"https://www.youtube.com/embed/DzpRjE5ekVk\" frameborder=\"0\" allowfullscreen></iframe>"));
+//        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\") src=\"https://www.youtube.com/embed/eNvXrSf3Cww\" frameborder=\"0\" allowfullscreen></iframe>"));
+//        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\") src=\"https://www.youtube.com/embed/e3eimijVeLw\" frameborder=\"0\" allowfullscreen></iframe>"));
+//        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\") src=\"https://www.youtube.com/embed/R6VdoV8dZRc\" frameborder=\"0\" allowfullscreen></iframe>"));
+//        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\") src=\"https://www.youtube.com/embed/fKzdiuseEIw\" frameborder=\"0\" allowfullscreen></iframe>"));
+//        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\") src=\"https://www.youtube.com/embed/ddHKwkMwNyI\" frameborder=\"0\" allowfullscreen></iframe>"));
+//        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\") src=\"https://www.youtube.com/embed/dmi18EiLDQo\" frameborder=\"0\" allowfullscreen></iframe>"));
+//        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\") src=\"https://www.youtube.com/embed/Yk2WOOqd2xY\" frameborder=\"0\" allowfullscreen></iframe>"));
 
-        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\") src=\"https://www.youtube.com/embed/yeiRgY07xUY\" frameborder=\"0\" allowfullscreen></iframe>"));
+//        youtubeVideos.add(new YoutubeVideo("<html><body>Video From YouTube<br><iframe width=\"100%\" height=\"100%\" " + "src=\"https://www.youtube.com/embed/hdVKpUR513M\"  frameborder=\"0\" allowfullscreen>" + "</iframe></body></html>"));
+//        youtubeVideos.add(new YoutubeVideo("<html><body>Video From YouTube<br><iframe width=\"100%\" height=\"100%\" " + "src=\"https://www.youtube.com/embed/hdVKpUR513M\"  frameborder=\"0\" allowfullscreen>" + "</iframe></body></html>"));
+//        youtubeVideos.add(new YoutubeVideo("<html><body>Video From YouTube<br><iframe width=\"100%\" height=\"100%\" " + "src=\"https://www.youtube.com/embed/hdVKpUR513M\"  frameborder=\"0\" allowfullscreen>" + "</iframe></body></html>"));
+//        youtubeVideos.add(new YoutubeVideo("<html><body>Video From YouTube<br><iframe width=\"100%\" height=\"100%\" " + "src=\"https://www.youtube.com/embed/hdVKpUR513M\"  frameborder=\"0\" allowfullscreen>" + "</iframe></body></html>"));
+//        youtubeVideos.add(new YoutubeVideo("<html><body>Video From YouTube<br><iframe width=\"100%\" height=\"100%\" " + "src=\"https://www.youtube.com/embed/hdVKpUR513M\"  frameborder=\"0\" allowfullscreen>" + "</iframe></body></html>"));
 
-        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\") src=\"https://www.youtube.com/embed/yeiRgY07xUY\" frameborder=\"0\" allowfullscreen></iframe>"));
 
-        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\") src=\"https://www.youtube.com/embed/yeiRgY07xUY\" frameborder=\"0\" allowfullscreen></iframe>"));
+//        youtubeVideos.add(R.raw.bleeding);
+//        youtubeVideos.add(R.raw.fracture);
+//        youtubeVideos.add(R.raw.nose);
 
         VideoAdapter videoAdapter = new VideoAdapter(youtubeVideos);
         recyclerView.setAdapter(videoAdapter);

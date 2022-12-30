@@ -25,10 +25,9 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.myapp.HomeActivities.EmergencyActivity;
-import com.example.myapp.HomeActivities.EmergencyActivityCustomePopUp;
+import com.example.myapp.HomeActivities.NearbyActivity;
 import com.example.myapp.HomeActivities.ShareActivity;
 
 import com.example.myapp.HomeActivities.VideosActivity;
@@ -89,20 +88,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(int2);
             }
         });
-        imge4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent int4= new Intent(MainActivity.this, NearbyActivity.class);
-                startActivity(int4);
-            }
-        });
-        imge6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent int6= new Intent(MainActivity.this, ShareActivity.class);
-                startActivity(int6);
-            }
-        });
         imge3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -118,6 +103,28 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        imge4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent int4= new Intent(MainActivity.this, NearbyActivity.class);
+                startActivity(int4);
+            }
+        });
+        imge5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent int5= new Intent(MainActivity.this, TipsActivity.class);
+                startActivity(int5);
+            }
+        });
+        imge6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent int6= new Intent(MainActivity.this, ShareActivity.class);
+                startActivity(int6);
+            }
+        });
+
 
 
 

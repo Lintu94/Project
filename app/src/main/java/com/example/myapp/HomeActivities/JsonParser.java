@@ -1,4 +1,4 @@
-package com.example.myapp;
+package com.example.myapp.HomeActivities;
 
 import org.json.JSONArray;
 import org.json.JSONException;

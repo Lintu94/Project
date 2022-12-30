@@ -55,7 +55,6 @@
     <string name="view">View</string>
 
 
-
     <string name="lina">Lina Mikail</string>
     <string name="linEmail">linamikail9416@gmail.com</string>
     <string name="belay">Belay Zelek</string>
@@ -311,9 +310,9 @@
     <string name="strokeS8">8. Arrange appropriate transport nearby hospital</string>
     <string name="strokeS9">9. Always wash your hands after giving care</string>
 
-<!--    <string name="google_map_key">AIzaSyAejNAM36dyg58HFm-mw_zsAzIPh_RbrpI</string>-->
+    <!--    <string name="google_map_key">AIzaSyAejNAM36dyg58HFm-mw_zsAzIPh_RbrpI</string>-->
 
-<!--    <string name="google_map_key">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>-->
+    <!--    <string name="google_map_key">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>-->
 
     <string name="google_map_key">AIzaSyA2n7ERw8u5pBjglqymZX7Ojz-XAKu3Wr0</string>
 
@@ -332,6 +331,29 @@
     <string name="benishangul">Benishangul Region</string>
     <string name="gambela">Gambela Region</string>
     <string name="required">Required</string>
+
+
+    <string name="tipS1">Myth: Put your head back when you have a nosebleed.</string>
+    <string name="tipS2">Fact: Don’t put your head back! Blood could flow down your throat and potentially into your stomach.</string>
+    <string name="tipS3">Myth: Help soothe and heal a burn by applying butter</string>
+    <string name="tipS4">Fact: Butter could make the burn worse and make treatment by a doctor more difficult</string>
+    <string name="tipS5">Myth: Apply a hot compress to a sprained ankle.</string>
+    <string name="tipS6">Fact: Cold is the best way to combat swelling. Heat could actually worsen the inflammation of the injury</string>
+    <string name="tipS7">Myth: Force Someone to Vomit Up Poison</string>
+    <string name="tipS8">Fact: many poisons are worse for the body coming up than going down.</string>
+
+<!--    <string name="tipS1"></string>-->
+<!--    <string name="tipS1"></string>-->
+<!--    <string name="tipS1"></string>-->
+<!--    <string name="tipS1"></string>-->
+<!--    <string name="tipS1"></string>-->
+<!--    <string name="tipS1"></string>-->
+<!--    <string name="tipS1"></string>-->
+<!--    <string name="tipS1"></string>-->
+<!--    <string name="tipS1"></string>-->
+<!--    <string name="tipS1"></string>-->
+
+
 
 
 </resources>

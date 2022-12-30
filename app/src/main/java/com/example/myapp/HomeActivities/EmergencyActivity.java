@@ -34,6 +34,7 @@ public class EmergencyActivity extends AppCompatActivity {
     RecyclerView recyclerViews;
     List<UserModel> userModelList = new ArrayList<>();
     Em_Adapter em_adapter;
+
     int images [] = {R.drawable.asthma,R.drawable.bleed,R.drawable.burn,R.drawable.chest,R.drawable.chok,
             R.drawable.chok2,R.drawable.cuts, R.drawable.diarrhoea,R.drawable.dogbote,R.drawable.drowning,
             R.drawable.epilepsy,R.drawable.faint,R.drawable.fever,R.drawable.fracture,R.drawable.no_breath,
@@ -61,9 +62,6 @@ public class EmergencyActivity extends AppCompatActivity {
 
       // name1 = getResources().getString(R.string.bleeding);
       // name2 = getResources().getString(R.string.burning);
-
-
-
 
 
         for(String s: names)
