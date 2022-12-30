@@ -332,7 +332,7 @@
     <string name="gambela">Gambela Region</string>
     <string name="required">Required</string>
 
-
+     <string name="myth_fact">Myth and Facts Regarding to First Aid</string>
     <string name="tipS1">Myth: Put your head back when you have a nosebleed.</string>
     <string name="tipS2">Fact: Don’t put your head back! Blood could flow down your throat and potentially into your stomach.</string>
     <string name="tipS3">Myth: Help soothe and heal a burn by applying butter</string>
@@ -352,6 +352,39 @@
 <!--    <string name="tipS1"></string>-->
 <!--    <string name="tipS1"></string>-->
 <!--    <string name="tipS1"></string>-->
+    <string name="golden_rule">The golden rules of First Aid</string>
+    <string name="recipes">10 Recipes for Success at Effective and Safe First Aid:</string>
+
+    <string name="tipSR1">1. Use a systematic approach in all medical emergencies.</string>
+    <string name="tipR2">2.	Identify and avoid risks to yourself, the person affected and third parties.</string>
+    <string name="tipR3">3.	Request support early (first aiders, AED, emergency number 144).</string>
+    <string name="tipR4">4.	Be “suspicious” and primarily assume it is something serious.</string>
+    <string name="tipR5">5.	Deal quickly with any chaos and cope with the situation.</string>
+    <string name="tipR6">6.	Position the patient so that they feel comfortable (except in the event of a suspected spinal injury).</string>
+    <string name="tipR7">7.	Only let one person talk to the patient.</string>
+    <string name="tipR8">8.	Get professional support much quicker in case of emergencies with children.</string>
+    <string name="tipR9">9.	Ensure there is leadership: one person must always take the lead.</string>
+    <string name="tipR10">10. Only transport patients by ambulance or taxi.</string>
+
+    <string name="principle_of_aid">Principles of First Aid</string>
+
+    <string name="principle_of_aid1">Preserve Life.</string>
+    <string name="principle_of_aid2">Prevent Deterioration.</string>
+    <string name="principle_of_aid3">Promote Recovery.</string>
+    <string name="principle_of_aid4">Taking immediate action.</string>
+    <string name="principle_of_aid5">Calming down the situation.</string>
+    <string name="principle_of_aid6">Calling for medical assistance.</string>
+
+    <string name="three_cs">The Three Cs of Emergency </string>
+
+    <string name="three_cs1">1. Check</string>
+    <string name="three_cs2">2. Call</string>
+    <string name="three_cs3">3. Care</string>
+
+    <string name="three_cs1.1">Check means checking for anything unsafe. If the emergency is surrounded by danger, assistance may be needed. Rushing into a scene without taking in present dangers may lead to more harm for yourself or others. For example, if there a car wreck happens in a high traffic area or there is someone in need of help in a fire, you will need to seek assistance. Check the scene before entering it. Take the evolution of the scene. Next check if the victim is breathing. You may need to give specific care such as CPR. </string>
+    <string name="three_cs2.1">In emergency situations, it’s important to call 911 immediately. As a first responder, act right away to get help from professionals. Inspect the scene, gather needed information—check for breathing and pulse from any victims, and any other helpful information. Provide correct information for local authorities and get them involved as soon as possible. </string>
+    <string name="three_cs3.1">After checking the scene and calling for help, provide care until medical professionals arrive on the scene. Monitor the victims breathing. You may need to stop bleeding or perform CPR. Follow the circulation-airway-breathing of first aid. </string>
+
 
 
 

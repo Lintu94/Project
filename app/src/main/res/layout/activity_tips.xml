@@ -7,6 +7,13 @@
     tools:context=".TipsActivity"
     android:orientation="vertical"
     android:background="@drawable/bg">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImg"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:src="@drawable/ic_read_cross"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
 
     <TextView
         android:id="@+id/selectedUser"
@@ -15,7 +22,8 @@
         android:layout_gravity="center"
         android:text="@string/FirstAidTip"
         android:textColor="@color/white"
-        android:textSize="20sp" />
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"/>
 
  <ScrollView
      android:layout_width="wrap_content"
@@ -90,6 +98,8 @@
              style="@style/tipText"
              android:text="@string/tipS8"
              />
+
+
 
 
      </LinearLayout>
