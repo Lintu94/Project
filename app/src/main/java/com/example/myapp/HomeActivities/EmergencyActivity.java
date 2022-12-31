@@ -36,7 +36,7 @@ public class EmergencyActivity extends AppCompatActivity {
     Em_Adapter em_adapter;
 
     int images [] = {R.drawable.asthma,R.drawable.bleed,R.drawable.burn,R.drawable.chest,R.drawable.chok,
-            R.drawable.chok2,R.drawable.cuts, R.drawable.diarrhoea,R.drawable.dogbote,R.drawable.drowning,
+            R.drawable.chok2,R.drawable.cuts,R.drawable.dogbote,R.drawable.drowning,
             R.drawable.epilepsy,R.drawable.faint,R.drawable.fever,R.drawable.fracture,R.drawable.no_breath,
             R.drawable.nose,R.drawable.poison,R.drawable.sting,R.drawable.stroke};
 
@@ -136,29 +136,7 @@ public class EmergencyActivity extends AppCompatActivity {
     }
 
 
-    private void languageDialog() {
-        final String [] languageItem ={"English ", "አማርኛ"};
-        AlertDialog.Builder builder = new AlertDialog.Builder(EmergencyActivity.this);
-        builder.setTitle("Select Language..");
-        builder.setSingleChoiceItems(languageItem, -1, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                if (i==0)
-                {
-                    setLanguage("En");
-                    recreate();
-                }else if (i==1)
-                {
-                    setLanguage("Am");
-                    recreate();
-                }
-                dialogInterface.dismiss();
-            }
-        });
-        AlertDialog dialog = builder.create();
-        dialog.show();
 
-    }
 
     private void setLanguage(String en) {
         Locale locale =new Locale(en);

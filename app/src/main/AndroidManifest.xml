@@ -65,9 +65,6 @@
             android:name=".EmergencyActivities.DogActivity"
             android:exported="false" />
         <activity
-            android:name=".EmergencyActivities.DiarActivity"
-            android:exported="false" />
-        <activity
             android:name=".EmergencyActivities.CutActivity"
             android:exported="false" />
         <activity

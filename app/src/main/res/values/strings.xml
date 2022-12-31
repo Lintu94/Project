@@ -77,7 +77,6 @@
         <item>@string/chock1</item>
         <item>@string/chock2</item>
         <item>@string/cuts</item>
-        <item>@string/diarr</item>
         <item>@string/dog</item>
         <item>@string/drowning</item>
         <item>@string/epilepsy</item>
@@ -178,19 +177,6 @@
     <string name="cutS8">8.	advice the person to seek medical help if the pain worsen there is swelling or redness the wound shows discharge, he feels unwell or fever</string>
     <string name="cutS9">9.	Always wash your hands after giving care</string>
 
-
-    <string name="diarS1">1. wash your hands before giving care</string>
-    <string name="diarS2">2. try not to come into contact with the persons stool or vomit. Use glove if available. Else you can use clean plastic bag to cover your hand</string>
-    <string name="diarS3">3. prevent dehydration by giving plenty of fluids to the sick person</string>
-    <string name="diarS4">4. children under two years should drink quarter and half of a large cup (50 – 100 ml) after each loose stool</string>
-    <string name="diarS5">5. children between two to ten years should drink half to full cups (100 – 200 ml) after each loose stool</string>
-    <string name="diarS6">6. children above ten years and adults should drink (200 ml) after each loose stool</string>
-    <string name="diarS7">7. advice the sick person to drink ORS (oral rehydration solution) which is available at chemist and government healthcare facilities</string>
-    <string name="diarS8">8. you may give the sick person curd or rice water if available</string>
-    <string name="diarS9">9. the sick person also may eat light food</string>
-    <string name="diarS10">10. check regularly on the sick person (during day and night) and sick medical help if the condition worsens</string>
-    <string name="diarS11"> 11.	advice the person to seek immediate medical help if the diarrhoea does not get better within two days there is bloodin the stool: he has fever he is developing signs of dehydration (dry mouth, sunken eyes crying without tears)he can’t drink; he vomits frequently or he has fits</string>
-    <string name="diarS12">12.	Always wash your hands after giving care</string>
 
 
     <string name="dogS1">1. Make sure the area is safe</string>

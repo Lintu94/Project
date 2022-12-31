@@ -20,7 +20,6 @@ import com.example.myapp.EmergencyActivities.ChestActivity;
 import com.example.myapp.EmergencyActivities.Choke1Activity;
 import com.example.myapp.EmergencyActivities.Choke2Activity;
 import com.example.myapp.EmergencyActivities.CutActivity;
-import com.example.myapp.EmergencyActivities.DiarActivity;
 import com.example.myapp.EmergencyActivities.DogActivity;
 import com.example.myapp.EmergencyActivities.DrowningActivity;
 import com.example.myapp.EmergencyActivities.EpilepsyActivity;
@@ -172,60 +171,55 @@ public class Em_Adapter extends RecyclerView.Adapter<Em_Adapter.MyHolder> implem
                     }
                     else if (position==7)
                     {
-                        Intent intent = new Intent(context , DiarActivity.class);
+                        Intent intent = new Intent(context , DogActivity.class);
                         context.startActivity(intent);
                     }
                     else if (position==8)
                     {
-                        Intent intent = new Intent(context , DogActivity.class);
+                        Intent intent = new Intent(context , DrowningActivity.class);
                         context.startActivity(intent);
                     }
                     else if (position==9)
                     {
-                        Intent intent = new Intent(context , DrowningActivity.class);
+                        Intent intent = new Intent(context , EpilepsyActivity.class);
                         context.startActivity(intent);
                     }
                     else if (position==10)
                     {
-                        Intent intent = new Intent(context , EpilepsyActivity.class);
+                        Intent intent = new Intent(context , FaintActivity.class);
                         context.startActivity(intent);
                     }
                     else if (position==11)
                     {
-                        Intent intent = new Intent(context , FaintActivity.class);
+                        Intent intent = new Intent(context , FeverActivity.class);
                         context.startActivity(intent);
                     }
                     else if (position==12)
                     {
-                        Intent intent = new Intent(context , FeverActivity.class);
+                        Intent intent = new Intent(context , FractureActivity.class);
                         context.startActivity(intent);
                     }
                     else if (position==13)
                     {
-                        Intent intent = new Intent(context , FractureActivity.class);
+                        Intent intent = new Intent(context , NoBreathActivity.class);
                         context.startActivity(intent);
                     }
                     else if (position==14)
                     {
-                        Intent intent = new Intent(context , NoBreathActivity.class);
+                        Intent intent = new Intent(context , NoseBleedActivity.class);
                         context.startActivity(intent);
                     }
                     else if (position==15)
                     {
-                        Intent intent = new Intent(context , NoseBleedActivity.class);
+                        Intent intent = new Intent(context , PoisonActivity.class);
                         context.startActivity(intent);
                     }
                     else if (position==16)
                     {
-                        Intent intent = new Intent(context , PoisonActivity.class);
-                        context.startActivity(intent);
-                    }
-                    else if (position==17)
-                    {
                         Intent intent = new Intent(context , StingActivity.class);
                         context.startActivity(intent);
                     }
-                    else if (position==18)
+                    else if (position==17)
                     {
                         Intent intent = new Intent(context , ChestActivity.class);
                         context.startActivity(intent);
