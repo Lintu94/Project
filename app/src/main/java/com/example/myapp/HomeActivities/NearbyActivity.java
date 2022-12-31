@@ -37,9 +37,9 @@ import java.util.HashMap;
 import java.util.List;
 
 public class NearbyActivity extends AppCompatActivity {
-
-    //Spinner spType;
-    Button btFind;
+//
+//    //Spinner spType;
+//    Button btFind;
     SupportMapFragment supportMapFragment;
     GoogleMap map;
     FusedLocationProviderClient fusedLocationProviderClient;
@@ -56,11 +56,11 @@ public class NearbyActivity extends AppCompatActivity {
 
         supportMapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.google_map);
 
-        String[] placeTypeList = {"atm", "bank", "hospital", "movie_theater", "restaurant"};
-        //String[] placeNameList = {"Atm", "Bank", "Hospital", "Movie_Theater", "Restaurant"};
-
-        //spType.setAdapter(new ArrayAdapter<>(NearbyActivity.this,
-                //android.R.layout.simple_spinner_dropdown_item, placeNameList));
+//        String[] placeTypeList = {"atm", "bank", "hospital", "movie_theater", "restaurant"};
+//        //String[] placeNameList = {"Atm", "Bank", "Hospital", "Movie_Theater", "Restaurant"};
+//
+//        //spType.setAdapter(new ArrayAdapter<>(NearbyActivity.this,
+//                //android.R.layout.simple_spinner_dropdown_item, placeNameList));
 
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(NearbyActivity.this);
         if (ActivityCompat.checkSelfPermission(NearbyActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION ) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(NearbyActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION ) != PackageManager.PERMISSION_GRANTED )  {
@@ -73,21 +73,19 @@ public class NearbyActivity extends AppCompatActivity {
         getCurrentLocation();
 
 
-        btFind.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-              //  int i = spType.getSelectedItemPosition();
-                String url = "http://maps.googleapis.com/maps/api/place/nearbysearch/json?" +
-                        "?location=" + currentLat + "," + currentLong + "&radius=500" +
-                        "&type= hospital" + "&sensor=true" +
-                        "&key=" + getResources().getString(R.string.google_map_key);
-                new PlaceTask().execute(url);
-            }
-        });
+//        btFind.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//              //  int i = spType.getSelectedItemPosition();
+//                String url = "http://maps.googleapis.com/maps/api/place/nearbysearch/json?" +
+//                        "?location=" + currentLat + "," + currentLong + "&radius=500" +
+//                        "&type= hospital" + "&sensor=true" +
+//                        "&key=" + getResources().getString(R.string.google_map_key);
+//                new PlaceTask().execute(url);
+//            }
+//        });
 
     }
-
-
 
     private void getCurrentLocation() {
 

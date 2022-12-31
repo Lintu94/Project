@@ -60,7 +60,7 @@ public class FeedbackActivity extends AppCompatActivity {
 //                {
 //                    Toast.makeText(FeedbackActivity.this, "There are no Email client", Toast.LENGTH_SHORT).show();
 //                }
-                String UriText = "mailto: "+ Uri.encode("linamikail9194@gmail.com")+
+                String UriText = "mailto: "+ Uri.encode("linamikail9416@gmail.com")+
                         "?subject= "+Uri.encode("Feedback from app \n")
                         +"\n Name: " +Uri.encode(String.valueOf(editText1.getText()))
                          +"\n\n Message:\n\n "+Uri.encode(String.valueOf(editText2.getText()));
@@ -73,29 +73,7 @@ public class FeedbackActivity extends AppCompatActivity {
 
 
     }
-    private void languageDialog() {
-        final String [] languageItem ={"English ", "አማርኛ"};
-        AlertDialog.Builder builder = new AlertDialog.Builder(FeedbackActivity.this);
-        builder.setTitle("Select Language..");
-        builder.setSingleChoiceItems(languageItem, -1, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                if (i==0)
-                {
-                    setLanguage("En");
-                    recreate();
-                }else if (i==1)
-                {
-                    setLanguage("Am");
-                    recreate();
-                }
-                dialogInterface.dismiss();
-            }
-        });
-        AlertDialog dialog = builder.create();
-        dialog.show();
 
-    }
 
     private void setLanguage(String en) {
         Locale locale =new Locale(en);

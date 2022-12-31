@@ -135,8 +135,6 @@ public class ShareActivity extends AppCompatActivity {
           @Override
           public void onClick(View view) {
 
-
-
                   fusedLocationClient = LocationServices.getFusedLocationProviderClient(ShareActivity.this);
                   if (ActivityCompat.checkSelfPermission(ShareActivity.this
                           , Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -176,17 +174,16 @@ public class ShareActivity extends AppCompatActivity {
                                   String phone=textInputEditText.getText().toString();
 
                                   if (ContextCompat.checkSelfPermission(ShareActivity.this, Manifest.permission.SEND_SMS) == PackageManager.PERMISSION_GRANTED) {
-                                                if (phone.equals("") ){
+                                                if (phone.equals("")){
                                                     Toast.makeText(ShareActivity.this, "Enter Phone Number", Toast.LENGTH_SHORT).show();
                                                 }
-
-
                                                     else {
                                                     SmsManager smsManager = SmsManager.getDefault();
                                                     StringBuffer smsBody = new StringBuffer();
                                                     smsBody.append(Uri.parse(uri));
                                                     smsManager.sendTextMessage(String.valueOf(phone), null, smsBody.toString(), null, null);
                                                     textInputEditText.setText("");
+                                                    Toast.makeText(ShareActivity.this, "Location Shared..", Toast.LENGTH_SHORT).show();
                                                 }
 
 
